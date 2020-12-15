@@ -10,7 +10,7 @@
 .navbar-logo {
     color:#5cdb95;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 2rem;
     cursor: pointer;
 }
 
@@ -21,6 +21,16 @@
 }
 
 .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    justify-content: start;
+    margin-left: 2rem;
+}
+
+.nav-icons {
     display: grid;
     grid-template-columns: repeat(5, auto);
     list-style: none;
@@ -55,7 +65,7 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 650px) {
     .NavbarItems{
         position: relative;
     }
@@ -75,6 +85,7 @@
         left: -100%;
         position: absolute;
         transition: all 0.5s ease;
+        margin-left: 0;
     }
 
     .nav-menu.active {

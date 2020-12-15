@@ -22,8 +22,10 @@ class Navbar extends React.Component {
           <li>
             <a className="nav-links" href="#projects">Projects</a>
             <a className="nav-links" href="#interests">Interests</a>
-            <a className="nav-links" href="https://github.com/antoniopedrodantas"><FaGithub /></a>
           </li>
+        </ul>
+        <ul className={this.state.clicked ? "nav-icons active" : "nav-icons"}>
+          <a className="nav-links" href="https://github.com/antoniopedrodantas"><FaGithub /></a>
         </ul>
       </nav>
     );
