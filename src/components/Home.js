@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navbar from "./Navbar/Navbar";
+import InfoComponent from "./InfoComponent/InfoComponent";
 
 class Home extends React.Component {
     
@@ -8,6 +9,7 @@ class Home extends React.Component {
       return (
         <>
         <Navbar />
+        <InfoComponent />
         </>
       );
     }
