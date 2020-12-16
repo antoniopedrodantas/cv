@@ -20,7 +20,7 @@ class Navbar extends React.Component {
         </div>
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a className="nav-links" href="#projects">Competences</a>
+            <a className="nav-links" href="/competences">Competences</a>
             <a className="nav-links" href="#projects">Projects</a>
             <a className="nav-links" href="#interests">Interests</a>
           </li>
