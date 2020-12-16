@@ -15,8 +15,6 @@ class WorkExperience extends React.Component {
             <br></br>
             <p>Advanced Degree in <mark>English</mark> by Cambridge University, <mark>C1</mark>.</p>
             <br></br>
-            <p>Entry-level <mark>Spanish</mark>.</p>
-            <br></br>
           </div>
         </div>
       </>

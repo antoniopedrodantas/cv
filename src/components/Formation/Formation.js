@@ -13,6 +13,8 @@ class Formation extends React.Component {
             <br></br>
             <p><mark>[2010-2014]</mark> Middle School @ Escola EB2,3 Prof. Carlos Teixeira.</p>
             <br></br>
+            <p><mark>[2012-2017]</mark> Studied Enlish @ FafSchool.</p>
+            <br></br>
             <p><mark>[2014-2017]</mark> High School @ Escola Secundária de Fafe.</p>
             <br></br>
             <p><mark>[2017-2022] </mark> Studied Informatics and Computing Engineering @ FEUP.</p>
