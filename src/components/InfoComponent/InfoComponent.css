@@ -9,6 +9,8 @@
     border-radius: 4px;
 }
 
+/* ---------- Text Edition ---------- */
+
 .card-title {
     margin: 1em;
     color:#5cdb95;
@@ -28,6 +30,8 @@
     border: 1px solid white;
     border-radius: 5px;
 }
+
+/* ---------- Skills ---------- */
 
 .skill-container {
     margin: 1em;
@@ -52,6 +56,18 @@
 }
 
 .skill-css {
+    width: 100%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.javascript {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-javascript {
     width: 75%;
     border: 1px solid #5cdb95;
     border-radius: 5px;
@@ -64,7 +80,7 @@
 }
 
 .skill-python {
-    width: 100%;
+    width: 50%;
     border: 1px solid #5cdb95;
     border-radius: 5px;
 }
@@ -76,7 +92,31 @@
 }
 
 .skill-cpp {
-    width: 50%;
+    width: 75%;
     border: 1px solid #5cdb95;
     border-radius: 5px;
+}
+
+.java {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-java {
+    width: 100%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+/* ---------- Identation ---------- */ 
+
+.idented {
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #5cdb95;
+}
+
+.idented-paragraph {
+    margin-top: 1em;
 }
