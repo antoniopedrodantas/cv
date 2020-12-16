@@ -27,24 +27,24 @@ class ProfileComponent extends React.Component {
             </div>
             <div className="little-links">
               <div className="little-info-left-up">
-                <p className="little-paragraph">
+                <a className="little-paragraph" href="https://www.google.com/search?q=portugal">
                     <FaMapMarkerAlt /> Portugal
-                </p>
+                </a>
               </div>
-              <div className="little-info-right-up">
-                <p className="little-paragraph">
+              <div className="little-info-right-up" href="https://sigarra.up.pt/feup/pt/web_page.inicial">
+                <a className="little-paragraph">
                     <BiBookBookmark /> F.E.U.P.
-                </p>
+                </a>
               </div>
-              <div className="little-info-left-down">
-                <p className="little-paragraph">
+              <div className="little-info-left-down" href="https://github.com/antoniopedrodantas">
+                <a className="little-paragraph">
                     <FaGithub /> GitHub
-                </p>
+                </a>
               </div>
-              <div className="little-info-right-down">
-                <p className="little-paragraph">
+              <div className="little-info-right-down" href="https://www.instagram.com/pedrodantaspedro/">
+                <a className="little-paragraph">
                     <FaInstagram /> Instagram
-                </p>
+                </a>
               </div>
             </div>
           </div>
