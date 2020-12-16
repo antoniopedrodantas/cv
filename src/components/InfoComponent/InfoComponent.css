@@ -1,0 +1,82 @@
+.info {
+    background-color: rgb(18, 21, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1em;
+    padding: 1em;
+    padding-left: 1em;
+    border-radius: 4px;
+}
+
+.card-title {
+    margin: 1em;
+    color:#5cdb95;
+}
+
+.card-section {
+    margin: 1em;
+    color:#5cdb95;
+}
+
+.card-info {
+    margin: 1em;
+    color:#ffffff;
+}
+
+.separator {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.skill-container {
+    margin: 1em;
+}
+
+.html {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-html {
+    width: 100%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.css {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-css {
+    width: 75%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.python {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-python {
+    width: 100%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.cpp {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-cpp {
+    width: 50%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}

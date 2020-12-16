@@ -2,7 +2,7 @@
 import "./App.css";
 
 // Components
-import Home from "./scenes/Home";
+import Home from "./scenes/Home/Home";
 
 // Dependencies
 import {  BrowserRouter as Router, Route } from 'react-router-dom';
