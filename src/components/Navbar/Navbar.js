@@ -1,7 +1,7 @@
 import React from "react";
 
 import './Navbar.css';
-import { FaTimes, FaBars, FaGithub } from "react-icons/fa";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 class Navbar extends React.Component {
 
@@ -21,7 +21,7 @@ class Navbar extends React.Component {
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
           <li>
             <a className="nav-links" href="/competences">Competences</a>
-            <a className="nav-links" href="#projects">Projects</a>
+            <a className="nav-links" href="/experience">Experience</a>
             <a className="nav-links" href="#interests">Interests</a>
           </li>
         </ul>
