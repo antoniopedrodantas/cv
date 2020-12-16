@@ -36,11 +36,6 @@ class InfoComponent extends React.Component {
               <p className="idented-paragraph"> <FaPhone /> +351 918 597 308</p>
               <p className="idented-paragraph"> <FaMailBulk /> pedro.dantascv@gmail.com</p>
             </div>
-          </div>
-          <br></br>
-          <hr className="separator"></hr>
-          <h1 className="card-title">Accomplishments</h1>
-          <div className="card-info">
             {" "}
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
@@ -52,14 +47,10 @@ class InfoComponent extends React.Component {
             sites still in their infancy. Various versions have evolved over the
             years, sometimes by accident, sometimes on purpose (injected humour
             and the like).{" "}
-            <div className="idented">
-              <p className="idented-paragraph"> <BiBookBookmark /> Faculdade de Engenharia Univerisdade do Porto</p>
-              <p className="idented-paragraph"> <GiSportMedal /> Karate</p>
-              <p className="idented-paragraph"> <IoLanguage /> Portuguese, English, Spanish</p>
-            </div>
           </div>
           <br></br>
           <hr className="separator"></hr>
+          <br></br>
           <h1 className="card-title">Skills</h1>
           <p className="card-info">
             {" "}
@@ -97,7 +88,6 @@ class InfoComponent extends React.Component {
           </div>
           <br></br>
           <br></br>
-          <hr className="separator"></hr>
         </div>
       </>
     );

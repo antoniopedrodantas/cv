@@ -31,18 +31,18 @@ class ProfileComponent extends React.Component {
                     <FaMapMarkerAlt /> Portugal
                 </a>
               </div>
-              <div className="little-info-right-up" href="https://sigarra.up.pt/feup/pt/web_page.inicial">
-                <a className="little-paragraph">
+              <div className="little-info-right-up">
+                <a className="little-paragraph" href="https://sigarra.up.pt/feup/pt/web_page.inicial">
                     <BiBookBookmark /> F.E.U.P.
                 </a>
               </div>
-              <div className="little-info-left-down" href="https://github.com/antoniopedrodantas">
-                <a className="little-paragraph">
+              <div className="little-info-left-down">
+                <a className="little-paragraph" href="https://github.com/antoniopedrodantas">
                     <FaGithub /> GitHub
                 </a>
               </div>
-              <div className="little-info-right-down" href="https://www.instagram.com/pedrodantaspedro/">
-                <a className="little-paragraph">
+              <div className="little-info-right-down">
+                <a className="little-paragraph" href="https://www.instagram.com/pedrodantaspedro/">
                     <FaInstagram /> Instagram
                 </a>
               </div>

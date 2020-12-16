@@ -34,7 +34,9 @@
 /* ---------- Skills ---------- */
 
 .skill-container {
-    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .html {
@@ -113,6 +115,7 @@
 
 .idented {
     margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 50px;
     color: #5cdb95;
 }
