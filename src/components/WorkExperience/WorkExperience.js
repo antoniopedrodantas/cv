@@ -8,18 +8,18 @@ class WorkExperience extends React.Component {
           <h1 className="card-title">Work Experience</h1>
           <div className="card-info">
             <p>
-              {" "}
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The point
-              of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here, content
-              here', making it look like readable English. Many desktop publishing
-              packages and web page editors now use Lorem Ipsum as their default
-              model text, and a search for 'lorem ipsum' will uncover many web
-              sites still in their infancy. Various versions have evolved over the
-              years, sometimes by accident, sometimes on purpose (injected humour
-              and the like).{" "}
+              Due to the fact of me still being relatively young, I do not have
+              a lot of work experience. I did have, however, a small insight
+              into the job market by taking a few part-time jobs in my home
+              town. I plan still in doing some summer internships before I
+              graduate.
             </p>
+            <br></br>
+            <p>
+              <mark>[2015]</mark>: Worked part-time on a <mark>Pharmacy</mark>{" "}
+              as stock replenisher.
+            </p>
+            <br></br>
           </div>
         </div>
       </>
