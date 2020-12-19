@@ -20,6 +20,7 @@ class Competences extends React.Component {
             <br></br>
             <hr></hr>
             <Skills />
+            <br></br>
         </div>
       </>
     );

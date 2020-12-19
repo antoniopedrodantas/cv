@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./InfoComponent.css";
-import { FaMapMarkerAlt, FaGithub, FaPhone, FaMailBulk } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhone, FaMailBulk } from "react-icons/fa";
 
 import Skills from "../Skills/Skills";
 
