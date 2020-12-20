@@ -22,8 +22,8 @@ class Music extends React.Component {
               Monkeys and all those bands from the early 2000s rock n' roll
               revival. Our songs got played on some national radios like{" "}
               <mark>Antena 3</mark> and <mark>Super Bock Super Rock FM</mark>,
-              we were part of the 2019's{" "}
-              <mark>FNAC's "CD - Novos Talentos"</mark> compilation and we got
+              we were part of the {" "}
+              <mark>Novos Talentos FNAC - 2019</mark> CD compilation and we got
               the chance to do some gigs in our country of <mark>Portugal </mark> 
               and in <mark>Spain</mark>.
             </p>

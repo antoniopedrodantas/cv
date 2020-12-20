@@ -10,10 +10,10 @@ class Projects extends React.Component {
           <h1 className="card-title">Projects</h1>
           <div className="card-info">
             <p>
-              Throughout the years, I have had the oppurtunity to develop lots
-              of different projects for almost every college course I had. It
-              would be pointless to show here all of the in depth, so I'll just
-              list the ones I am more proud of and think are more useful.
+              Throughout the years, I've had the oppurtunity to develop lots of
+              different projects for almost every college course I had. It would
+              be pointless to show them all here, so I'll just list the ones I
+              am more proud of and think are the most useful.
             </p>
             <div className="wrapper-project">
               <div className="div1">
@@ -46,7 +46,7 @@ class Projects extends React.Component {
                   <mark>simulating a skyscraper</mark> environment that
                   contained lifts. The idea was to be able to introduce certain
                   independent variables (ex: number of floors, number of lifts,
-                  each lift's max weight) a analyzing data to understand what
+                  each lift's max weight) and analyzing data to understand what
                   would be the most efficient building configuration. This
                   project was developed in <mark>Java</mark> using Jade and
                   Repast libraries.
@@ -85,9 +85,10 @@ class Projects extends React.Component {
                   For the <mark>Artificial Intelligence</mark> class we had to
                   develop an agent that could <mark>beat a puzzle game</mark>.
                   We chose to recreate Box World. The rules are simple, the red
-                  square needs to get to the blue square. In order to do so we
-                  will have solve the level's layout by pushing some boxes and
-                  ice cubes. This project was mad using <mark>Pyhton</mark>.
+                  square needs to get to the blue square. In order to do so it
+                  will have to solve the level's layout by pushing some boxes
+                  and ice cubes. This project was made using <mark>Pyhton</mark>
+                  .
                 </p>
                 <br></br>
                 <img

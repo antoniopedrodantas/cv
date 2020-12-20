@@ -10,7 +10,7 @@ class Skills extends React.Component {
           <h1 className="card-title">Skills</h1>
           <div className="card-info">
             <p>
-              Having a master's degree in Informatics and Computing Engineering
+              Having a masters degree in Informatics and Computing Engineering
               means I got in contact with a lot of programming languages. Some
               of them were very outdated and only served as a small entrance
               into the world of coding. Nonetheless, almost all of them shared

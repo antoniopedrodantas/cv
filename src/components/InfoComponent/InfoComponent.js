@@ -19,16 +19,10 @@ class InfoComponent extends React.Component {
           <h1 className="card-title">Let me introduce myself...</h1>
           <div className="card-info">
             {" "}
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).{" "}
+            Hello! My name is António Pedro Dantas, I'm 21 years old and I'm
+            taking my masters degree in Informatics and Computing Engineering at
+            FEUP (Faculdade de Engenharia da Universidade do Porto). I'm in love
+            with music, cinema, comedy, art and travelling.{" "}
             <div className="idented">
               <p className="idented-paragraph">
                 {" "}
@@ -43,16 +37,10 @@ class InfoComponent extends React.Component {
                 <FaMailBulk /> pedro.dantascv@gmail.com
               </p>
             </div>{" "}
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).{" "}
+            This is my online Curriculum Vitae! Here, I'll try to give you an
+            insight about my professional skills, my formation and experience.
+            I'll talk a little bit about myself and my personal accomplishments.
+            Let's dive in!{" "}
           </div>
           <br></br>
           <hr className="separator"></hr>
