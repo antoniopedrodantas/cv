@@ -3,7 +3,6 @@ import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 
 export function WorkExperience() {
-
   // language displayed
   const { language } = useContext(LanguageContext);
 
@@ -44,19 +43,19 @@ export function WorkExperience() {
         <div className="card-info">
           <p>
             {" "}
-            Chegou a <mark>1º Kyu</mark> em Karate Shotokan. Campeão Nacional
-            em <mark>2009</mark>, 2º lugar em <mark>2012</mark>, 3º lugar em {" "}
+            Chegou a <mark>1º Kyu</mark> em Karate Shotokan. Campeão Nacional em{" "}
+            <mark>2009</mark>, 2º lugar em <mark>2012</mark>, 3º lugar em{" "}
             <mark>2011</mark>, <mark>2013</mark>, <mark>2014</mark>.
           </p>
           <br></br>
           <p>
-            Conquistoy o <mark>3º</mark> lugar no concurso Ibérico de Guitarra Clássica em {" "}
-            <mark>2011</mark>.
+            Conquistoy o <mark>3º</mark> lugar no concurso Ibérico de Guitarra
+            Clássica em <mark>2011</mark>.
           </p>
           <br></br>
           <p>
-            Design Manager dos <mark>Potenza</mark>, equipa de F1 in Schools. Chegaram ao
-            3º lugar no campeonato regional, <mark>2014</mark>.
+            Design Manager dos <mark>Potenza</mark>, equipa de F1 in Schools.
+            Chegaram ao 3º lugar no campeonato regional, <mark>2014</mark>.
           </p>
           <br></br>
           <p>

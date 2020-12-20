@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-html, body{
+html,
+body {
   background-color: rgb(12, 14, 18);
 }
 
@@ -14,7 +15,7 @@ html, body{
 
 .card-title {
   margin: 1em;
-  color:#5cdb95;
+  color: #5cdb95;
 }
 
 mark {
@@ -24,7 +25,7 @@ mark {
 
 .card-info {
   margin: 1em;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .separator {
@@ -34,6 +35,5 @@ mark {
 
 .card-section {
   margin: 1em;
-  color:#5cdb95;
+  color: #5cdb95;
 }
-

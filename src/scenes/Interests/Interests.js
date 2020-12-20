@@ -9,7 +9,7 @@ class Interests extends React.Component {
     return (
       <>
         <div className="info">
-            <Music />
+          <Music />
         </div>
       </>
     );

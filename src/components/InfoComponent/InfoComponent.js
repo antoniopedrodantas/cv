@@ -10,7 +10,6 @@ import "./InfoComponent.css";
 import Skills from "../Skills/Skills";
 
 export function InfoComponent() {
-
   // language displayed
   const { language } = useContext(LanguageContext);
 
@@ -78,8 +77,7 @@ export function InfoComponent() {
           Este é o meu Curriculum Vitae online! Aqui vou tentar dar algum
           conhecimento sobre as minhas capacidades profissionais, a minha
           formação e experiência. Vou falar um pouco sobre mim e as minhas
-          conquistas pessoais. Vamos a isso!
-          {" "}
+          conquistas pessoais. Vamos a isso!{" "}
         </div>
         <br></br>
         <hr className="separator"></hr>

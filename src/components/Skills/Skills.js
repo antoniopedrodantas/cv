@@ -58,13 +58,14 @@ export function Skills() {
         <h1 className="card-title">Skills</h1>
         <div className="card-info">
           <p>
-            Ter um mestrado em Engenharia Informática e Computação significa que 
-            já estive em contatco com um grande número de linguagens de programação. 
-            Algumas delas estavam muito desatualizadas e apenas serviram como uma 
-            pequena porta para este novo mundo. De qualquer forma, quase todas elas 
-            partilhavam o mesmo raciocínio e modo de abordage, apenas a sintaxe mudava. 
-            Aqui vou listar as linguagens de que mais gosto e acho mais úteis, bem como 
-            o nível de experiência que tenho com elas.
+            Ter um mestrado em Engenharia Informática e Computação significa que
+            já estive em contatco com um grande número de linguagens de
+            programação. Algumas delas estavam muito desatualizadas e apenas
+            serviram como uma pequena porta para este novo mundo. De qualquer
+            forma, quase todas elas partilhavam o mesmo raciocínio e modo de
+            abordage, apenas a sintaxe mudava. Aqui vou listar as linguagens de
+            que mais gosto e acho mais úteis, bem como o nível de experiência
+            que tenho com elas.
           </p>
           <div className="skill-container">
             <div>

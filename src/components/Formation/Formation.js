@@ -3,7 +3,6 @@ import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 
 export function Formation() {
-
   // language displayed
   const { language } = useContext(LanguageContext);
 
@@ -13,7 +12,8 @@ export function Formation() {
         <h1 className="card-title">Formation</h1>
         <div className="card-info">
           <p>
-            <mark>[2007-2014]</mark> Practiced Karate Shotokan @ Centro Budo de Fafe.
+            <mark>[2007-2014]</mark> Practiced Karate Shotokan @ Centro Budo de
+            Fafe.
           </p>
           <br></br>
           <p>
@@ -44,7 +44,8 @@ export function Formation() {
         <h1 className="card-title">Formação</h1>
         <div className="card-info">
           <p>
-            <mark>[2007-2014]</mark> Praticou Karate Shotokan @ Centro Budo de Fafe.
+            <mark>[2007-2014]</mark> Praticou Karate Shotokan @ Centro Budo de
+            Fafe.
           </p>
           <br></br>
           <p>
@@ -57,11 +58,13 @@ export function Formation() {
           </p>
           <br></br>
           <p>
-            <mark>[2017-2020]</mark> Licenciatura em Engenharia Informática e Computação @ FEUP.
+            <mark>[2017-2020]</mark> Licenciatura em Engenharia Informática e
+            Computação @ FEUP.
           </p>
           <br></br>
           <p>
-            <mark>[2020-2022] </mark> Mestrado em Engenharia Informática e Computação @ FEUP.
+            <mark>[2020-2022] </mark> Mestrado em Engenharia Informática e
+            Computação @ FEUP.
           </p>
           <br></br>
         </div>

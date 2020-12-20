@@ -10,10 +10,10 @@ class Experience extends React.Component {
     return (
       <>
         <div className="info">
-            <Projects />
-            <br></br>
-            <hr></hr>
-            <WorkExperience />
+          <Projects />
+          <br></br>
+          <hr></hr>
+          <WorkExperience />
         </div>
       </>
     );

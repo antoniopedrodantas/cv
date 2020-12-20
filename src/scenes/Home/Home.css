@@ -1,8 +1,7 @@
-
 @media screen and (min-width: 914px) {
-    .wrapper {
-        margin-top: 1em;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  .wrapper {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

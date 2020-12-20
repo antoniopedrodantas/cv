@@ -6,7 +6,6 @@ import { LanguageContext } from "../../context/LanguageContext";
 import "./Music.css";
 
 export function Music() {
-
   // language displayed
   const { language } = useContext(LanguageContext);
 
@@ -28,8 +27,8 @@ export function Music() {
             and all those bands from the early 2000s rock n' roll revival. Our
             songs got played on some national radios like <mark>Antena 3</mark>{" "}
             and <mark>Super Bock Super Rock FM</mark>, we were part of the{" "}
-            <mark>Novos Talentos FNAC - 2019</mark> compilation and we got
-            the chance to do some gigs in our country of <mark>Portugal </mark>
+            <mark>Novos Talentos FNAC - 2019</mark> compilation and we got the
+            chance to do some gigs in our country of <mark>Portugal </mark>
             and in <mark>Spain</mark>.
           </p>
           <div className="my-music-wrapper">
@@ -59,9 +58,9 @@ export function Music() {
         <div className="card-info">
           <p>
             Sendo eu um estudante nos meus 20 e poucos anos, existem muitas
-            coisas pelas quais me interesso. Cinema, humor, viajar e
-            divertir-me com os meus amigos seriam algumas delas. Mas sem sombra de
-            dúvida que a <mark>música</mark> estaria no topo da lista.
+            coisas pelas quais me interesso. Cinema, humor, viajar e divertir-me
+            com os meus amigos seriam algumas delas. Mas sem sombra de dúvida
+            que a <mark>música</mark> estaria no topo da lista.
           </p>
           <p>
             Eu faço parte de uma banda de amigos de faculdade chamada{" "}

@@ -14,7 +14,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { LanguageContext } from "./context/LanguageContext";
 
 function App() {
-
   // default language
   const [language, setLanguage] = useState("EN");
 
@@ -22,7 +21,7 @@ function App() {
   return (
     <Router>
       <>
-        <LanguageContext.Provider value={{language, setLanguage}}>
+        <LanguageContext.Provider value={{ language, setLanguage }}>
           <Navbar />
           <Route path="/" exact component={Home} />
           <Route path="/competences" exact component={Competences} />

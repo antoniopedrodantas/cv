@@ -110,10 +110,10 @@ export function Projects() {
         <h1 className="card-title">Projetos</h1>
         <div className="card-info">
           <p>
-            Ao longo dos anos, eu tive a oportunidade de desenvolver bastantes 
-            projetos diferentes para quase todas as cadeiras que tive na faculdade. 
-            Seria desnecessário mostrar aqui todos eles, então vou apenas listar 
-            aqueles de que me orgulho mais e acho mais úteis.
+            Ao longo dos anos, eu tive a oportunidade de desenvolver bastantes
+            projetos diferentes para quase todas as cadeiras que tive na
+            faculdade. Seria desnecessário mostrar aqui todos eles, então vou
+            apenas listar aqueles de que me orgulho mais e acho mais úteis.
           </p>
           <div className="wrapper-project">
             <div className="div1">
@@ -121,13 +121,11 @@ export function Projects() {
               <br></br>
               <p>
                 {" "}
-                Answerly foi o nosso projeto para a cadeira de <mark>
-                  Desenvolvimento Web
-                </mark>{" "}
-                . O objetivo era criar um site de {" "}
-                <mark>Q&A</mark> interativo, onde as pessoas se 
-                pudessem registar, fazer perguntas e receber respostas 
-                pertinentes. Utilizamos a framework <mark>Laravel</mark> 
+                Answerly foi o nosso projeto para a cadeira de{" "}
+                <mark>Desenvolvimento Web</mark> . O objetivo era criar um site
+                de <mark>Q&A</mark> interativo, onde as pessoas se pudessem
+                registar, fazer perguntas e receber respostas pertinentes.
+                Utilizamos a framework <mark>Laravel</mark>
                 para este projeto.
               </p>
               <br></br>
@@ -138,17 +136,22 @@ export function Projects() {
               ></img>
             </div>
             <div className="div2">
-              <h3 className="project-title"> Sistema de Gestão de Elevadores</h3>
+              <h3 className="project-title">
+                {" "}
+                Sistema de Gestão de Elevadores
+              </h3>
               <br></br>
               <p>
                 {" "}
-                Na cadeira de <mark>Sistemas Distribuidos</mark> desenvolvemos um 
-                software capaz de <mark>simular um ambiente de arranha-céus</mark> 
-                que continha vários elevadores. A ideia é introduzir um conjunto de variáveis 
-                independentes (ex: número de andares, número de elevadores, peso máximo de 
-                cada elevador) e analizar a informação dada para perceber qual seria a configuração 
-                mais eficiente do edifício. Este projeto foi desenvolvido com <mark>Java</mark> e 
-                as bibliotecas Jade e Repast.
+                Na cadeira de <mark>Sistemas Distribuidos</mark> desenvolvemos
+                um software capaz de{" "}
+                <mark>simular um ambiente de arranha-céus</mark>
+                que continha vários elevadores. A ideia é introduzir um conjunto
+                de variáveis independentes (ex: número de andares, número de
+                elevadores, peso máximo de cada elevador) e analizar a
+                informação dada para perceber qual seria a configuração mais
+                eficiente do edifício. Este projeto foi desenvolvido com{" "}
+                <mark>Java</mark> e as bibliotecas Jade e Repast.
               </p>
               <br></br>
               <img
@@ -161,12 +164,13 @@ export function Projects() {
               <h3 className="project-title"> Tempura</h3>
               <br></br>
               <p>
-                Tempura foi uma empresa fictícia que criamos para a cadeira 
-                de <mark>Sistemas de Informação</mark>. O objetivo era desenvolver 
-                uma aplicação web para <mark>análisa de dados</mark> dessa empresa. O site era 
-                capaz de importar ficheiros SAFT e mostrar essa informação de uma maneira
-                user-friendly. Utilizamos <mark>TypeScript</mark> e <mark>React</mark> para 
-                o seu desenvolvimento.
+                Tempura foi uma empresa fictícia que criamos para a cadeira de{" "}
+                <mark>Sistemas de Informação</mark>. O objetivo era desenvolver
+                uma aplicação web para <mark>análisa de dados</mark> dessa
+                empresa. O site era capaz de importar ficheiros SAFT e mostrar
+                essa informação de uma maneira user-friendly. Utilizamos{" "}
+                <mark>TypeScript</mark> e <mark>React</mark> para o seu
+                desenvolvimento.
               </p>
               <br></br>
               <img
@@ -179,11 +183,13 @@ export function Projects() {
               <h3 className="project-title"> Box World</h3>
               <br></br>
               <p>
-                Para a cadeira de <mark>Inteligência Artificial</mark> tivemos de 
-                desenvolver um agente capaz de <mark>resolver um jogo de puzzle</mark>. 
-                Escolhemos recriar o Box World. As regras são simples, o quadrado vermelho tem de chegar 
-                ao quadrado azul. Para o fazer vai ter de resolver o enigma do nível ao mover-se e 
-                empurrar caixas e blocos de gelo. Este projeto foi feito com <mark>Python</mark>.
+                Para a cadeira de <mark>Inteligência Artificial</mark> tivemos
+                de desenvolver um agente capaz de{" "}
+                <mark>resolver um jogo de puzzle</mark>. Escolhemos recriar o
+                Box World. As regras são simples, o quadrado vermelho tem de
+                chegar ao quadrado azul. Para o fazer vai ter de resolver o
+                enigma do nível ao mover-se e empurrar caixas e blocos de gelo.
+                Este projeto foi feito com <mark>Python</mark>.
               </p>
               <br></br>
               <img

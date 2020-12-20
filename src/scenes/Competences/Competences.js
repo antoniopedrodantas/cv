@@ -11,14 +11,14 @@ class Competences extends React.Component {
     return (
       <>
         <div className="info">
-            <Formation />
-            <br></br>
-            <hr></hr>
-            <Accomplishments />
-            <br></br>
-            <hr></hr>
-            <Skills />
-            <br></br>
+          <Formation />
+          <br></br>
+          <hr></hr>
+          <Accomplishments />
+          <br></br>
+          <hr></hr>
+          <Skills />
+          <br></br>
         </div>
       </>
     );

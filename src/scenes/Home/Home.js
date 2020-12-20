@@ -2,7 +2,7 @@
 import React from "react";
 
 // Styling
-import "./Home.css"
+import "./Home.css";
 
 // Components
 import InfoComponent from "../../components/InfoComponent/InfoComponent";

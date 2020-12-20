@@ -1,134 +1,133 @@
 .NavbarItems {
-    background-color: rgb(18, 21, 25);
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
+  background-color: rgb(18, 21, 25);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
 /* ---------- CurriculumVitae ---------- */
 
 .navbar-logo {
-    color:#5cdb95;
-    justify-self: start;
-    margin-left: 2rem;
-    cursor: pointer;
-    text-decoration: none;
+  color: #5cdb95;
+  justify-self: start;
+  margin-left: 2rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar-logo:hover {
-    color: #379863;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
+  color: #379863;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
 }
 
 /* ---------- Nav options ---------- */
 
 .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    list-style: none;
-    text-align: center;
-    width: 100%;
-    justify-content: end;
-    margin-right: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content: end;
+  margin-right: 2rem;
 }
 
 .nav-links {
-    color: #5cdb95;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+  color: #5cdb95;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    color: #379863;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
+  color: #379863;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
 }
 
-
 .language-button {
-    background-color: #5cdb95;
-    color: rgb(18, 21, 25);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin: 1em;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #5cdb95;
+  color: rgb(18, 21, 25);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 1em;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .language-button:hover {
-    background-color: #379863;
-    color: rgb(18, 21, 25);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin: 1em;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
+  background-color: #379863;
+  color: rgb(18, 21, 25);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
 }
 
 .icon {
-    align-self: center;
-    color: #5cdb95;
+  align-self: center;
+  color: #5cdb95;
 }
 
 .nav-links-mobile {
-    display: none;
+  display: none;
 }
 
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 /* ---------- Mobile ---------- */
 
 @media screen and (max-width: 770px) {
-    .NavbarItems{
-        position: relative;
-    }
+  .NavbarItems {
+    position: relative;
+  }
 
-    .navbar-logo {
-        color:#5cdb95;
-        justify-self: center;
-        cursor: pointer;
-        text-align: center;
-        align-self: center;
-    }
+  .navbar-logo {
+    color: #5cdb95;
+    justify-self: center;
+    cursor: pointer;
+    text-align: center;
+    align-self: center;
+  }
 
-    .nav-menu {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 340px;
-        top: 80px;
-        left: -100%;
-        position: absolute;
-        transition: all 0.5s ease;
-        margin-left: 0;
-    }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 340px;
+    top: 80px;
+    left: -100%;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-left: 0;
+  }
 
-    .nav-menu.active {
-        background: rgb(18, 21, 25);
-        left:0%;
-        z-index: 1;
-        transition: all 0.5s ease;
-    }
+  .nav-menu.active {
+    background: rgb(18, 21, 25);
+    left: 0%;
+    z-index: 1;
+    transition: all 0.5s ease;
+  }
 
-    .nav-links {
-        text-align: center;
-        padding: 2rem;
-        width: 100%;
-        display:table;
-    }
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
 
-    .menu-icon {
-        display: block;
-        position: absolute;
-        right: 5%;
-        bottom: 20px;
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 5%;
+    bottom: 20px;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
 }

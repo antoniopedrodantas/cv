@@ -1,49 +1,47 @@
 /* -------------- Mobile -------------- */
 
 .my-music-me {
-    height: 100px;
-    border-radius: 4px;
-    border: solid 4px #5cdb95;
+  height: 100px;
+  border-radius: 4px;
+  border: solid 4px #5cdb95;
 }
 
 .my-music-radio {
-    height: 100px;
-    border-radius: 4px;
-    border: solid 4px #5cdb95;
+  height: 100px;
+  border-radius: 4px;
+  border: solid 4px #5cdb95;
 }
 
 .my-music-wrapper {
-    margin: 2em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .my-music-div {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* -------------- Desktop -------------- */
 
 @media screen and (min-width: 1120px) {
+  .my-music-wrapper {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
 
-    .my-music-wrapper {
-        margin: 2em;
-        display: grid;
-        grid-template-columns: 65% 35%;
-    }
+  .my-music-me {
+    height: 500px;
+    border-radius: 4px;
+    border: solid 4px #5cdb95;
+  }
 
-    .my-music-me {
-        height: 500px;
-        border-radius: 4px;
-        border: solid 4px #5cdb95;
-    }
-
-    .my-music-radio {
-        height: 250px;
-        border-radius: 4px;
-        border: solid 4px #5cdb95;
-    }
-
+  .my-music-radio {
+    height: 250px;
+    border-radius: 4px;
+    border: solid 4px #5cdb95;
+  }
 }
