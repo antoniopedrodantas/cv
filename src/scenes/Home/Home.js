@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Home.css"
 
-import Navbar from "../../components/Navbar/Navbar";
 import InfoComponent from "../../components/InfoComponent/InfoComponent";
 import ProfileComponent from "../../components/ProfileComponent/ProfileComponent";
 

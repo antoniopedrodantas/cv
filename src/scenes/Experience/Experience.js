@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Experience.css"
 
-import Navbar from "../../components/Navbar/Navbar";
 import Projects from "../../components/Projects/Projects";
 import WorkExperience from "../../components/WorkExperience/WorkExperience";
 

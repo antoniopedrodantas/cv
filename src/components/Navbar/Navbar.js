@@ -35,7 +35,7 @@ export function Navbar(){
             <Link className="nav-links" to="/competences">Competences</Link>
             <Link className="nav-links" to="/experience">Experience</Link>
             <Link className="nav-links" to="/interests">Interests</Link>
-            <button className="language-button" onClick={handleLanguage}> {language} </button>
+            <span className="language-button" role="img" onClick={handleLanguage}> 🇬🇧 {language} </span>
           </li>
         </ul>
       </nav>
@@ -49,8 +49,8 @@ export function Navbar(){
           <li>
             <Link className="nav-links" to="/competences">Competências</Link>
             <Link className="nav-links" to="/experience">Experiência</Link>
-            <Link className="nav-links" to="/interests">Interresses</Link>
-            <button className="language-button" onClick={handleLanguage}> {language} </button>
+            <Link className="nav-links" to="/interests">Interesses</Link>
+            <span className="language-button" role="img" onClick={handleLanguage}> 🇵🇹 {language} </span>
           </li>
         </ul>
       </nav>
