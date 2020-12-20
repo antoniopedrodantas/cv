@@ -49,7 +49,7 @@ export function WorkExperience() {
           </p>
           <br></br>
           <p>
-            Conquistoy o <mark>3º</mark> lugar no concurso Ibérico de Guitarra
+            Conquistou o <mark>3º</mark> lugar no concurso Ibérico de Guitarra
             Clássica em <mark>2011</mark>.
           </p>
           <br></br>
