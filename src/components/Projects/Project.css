@@ -13,12 +13,14 @@
 }
 .div2{
     margin-top: 1em;
+    text-align: end;
 }
 .div3{
     margin-top: 2em;
 }
 .div4{
     margin-top: 2em;
+    text-align: end;
 }
 
 @media screen and (min-width: 1120px) {
