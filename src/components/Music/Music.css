@@ -4,6 +4,18 @@
     border: solid 4px #5cdb95;
 }
 
+.my-music-me {
+    height: 100px;
+    border-radius: 4px;
+    border: solid 4px #5cdb95;
+}
+
+.my-music-radio {
+    height: 100px;
+    border-radius: 4px;
+    border: solid 4px #5cdb95;
+}
+
 .music-wrapper {
     margin: 2em;
     display: grid;
@@ -14,7 +26,7 @@
 .my-music-wrapper {
     margin: 2em;
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .music-div {
@@ -37,6 +49,12 @@
 }
 
 @media screen and (min-width: 1120px) {
+
+    .my-music-wrapper {
+        margin: 2em;
+        display: grid;
+        grid-template-columns: 65% 35%;
+    }
 
     .music {
         height: 250px;

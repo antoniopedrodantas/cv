@@ -10,77 +10,22 @@ class Music extends React.Component {
           <h1 className="card-title">Music</h1>
           <div className="card-info">
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              Being a student in my early 20s there are a lot of things I'm
+              interested in. Travelling, cinema, humour and hanging out with my
+              friends would be some of them. But without question that{" "}
+              <mark>music</mark> is on top of that list.
             </p>
-            <div className="music-wrapper">
-              <div className="music-div">
-                <img
-                  src="/is-this-it.jpg"
-                  className="music"
-                  alt="The Strokes - Is This It"
-                ></img>
-              </div>
-              <div className="music-div">
-                <img
-                  src="/whatever.jpg"
-                  className="music"
-                  alt="Arctic Monkeys - Whatever People Sat I Am, That's What I'm Not"
-                ></img>
-              </div>
-              <div className="music-div">
-                <img
-                  src="/lonerism.jpg"
-                  className="music"
-                  alt="Tame Impala - Lonerism"
-                ></img>
-              </div>
-              <div className="music-div-d">
-                <img
-                  src="/salad-days.jpg"
-                  className="music"
-                  alt="Mac DeMarco - Salad Days"
-                ></img>
-              </div>
-              <div className="music-div-d">
-                <img
-                  src="/the-ooz.jpg"
-                  className="music"
-                  alt="King Krule - The Ooz"
-                ></img>
-              </div>
-              <div className="music-div-d">
-                <img
-                  src="/wide-awake.jpg"
-                  className="music"
-                  alt="Parquet Courts - Wide Awake!"
-                ></img>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br></br>
-        <hr></hr>
-        <div className="content-right">
-          <h1 className="card-title">My Music</h1>
-          <div className="card-info">
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              I take part of a high-school band called <mark>Jepards</mark>. Our
+              EP, <mark>Okay, Alright!</mark>, is available on all streaming
+              platforms. We are heavily influenced by The Strokes, Arctic
+              Monkeys and all those bands from the early 2000s rock n' roll
+              revival. Our songs got played on some national radios like{" "}
+              <mark>Antena 3</mark> and <mark>Super Bock Super Rock FM</mark>,
+              we were part of the 2019's{" "}
+              <mark>FNAC's "CD - Novos Talentos"</mark> compilation and we got
+              the chance to do some gigs in our country of <mark>Portugal </mark> 
+              and in <mark>Spain</mark>.
             </p>
             <div className="my-music-wrapper">
               <div className="my-music-div">
