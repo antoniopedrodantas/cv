@@ -2,8 +2,6 @@ import React, { useContext } from "react";
 
 import { LanguageContext } from "../../context/LanguageContext";
 
-import "./Formation.css";
-
 export function Formation() {
   const { language } = useContext(LanguageContext);
 

@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./Competences.css"
-
 import Formation from "../../components/Formation/Formation";
 import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Skills from "../../components/Skills/Skills";

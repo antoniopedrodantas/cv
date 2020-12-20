@@ -7,3 +7,33 @@
 html, body{
   background-color: rgb(12, 14, 18);
 }
+
+.content-right {
+  text-align: right;
+}
+
+.card-title {
+  margin: 1em;
+  color:#5cdb95;
+}
+
+mark {
+  color: #5cdb95;
+  background-color: rgb(18, 21, 25);
+}
+
+.card-info {
+  margin: 1em;
+  color:#ffffff;
+}
+
+.separator {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.card-section {
+  margin: 1em;
+  color:#5cdb95;
+}
+

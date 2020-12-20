@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./Experience.css"
-
 import Projects from "../../components/Projects/Projects";
 import WorkExperience from "../../components/WorkExperience/WorkExperience";
 

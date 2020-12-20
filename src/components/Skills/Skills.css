@@ -1,0 +1,77 @@
+.skill-container {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.html {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-html {
+    width: 100%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.css {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-css {
+    width: 100%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.javascript {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-javascript {
+    width: 75%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.python {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-python {
+    width: 50%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.cpp {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-cpp {
+    width: 75%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.java {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.skill-java {
+    width: 100%;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
