@@ -8,7 +8,7 @@ import { LanguageContext } from "../../context/LanguageContext";
 // class Navbar extends React.Component {
 export function Navbar(){
 
-  const {value, setValue} = useContext(LanguageContext);
+  const {language, setLanguage} = useContext(LanguageContext);
 
   const [clicked, setClicked] = useState(false);
 
@@ -17,11 +17,11 @@ export function Navbar(){
   }
 
   const handleLanguage = () => {
-    if(value === "EN") {
-      setValue("PT")
+    if(language === "EN") {
+      setLanguage("PT")
     }
     else {
-      setValue("EN");
+      setLanguage("EN");
     }
   }
 
@@ -36,7 +36,7 @@ export function Navbar(){
             <Link className="nav-links" to="/competences">Competences</Link>
             <Link className="nav-links" to="/experience">Experience</Link>
             <Link className="nav-links" to="/interests">Interests</Link>
-            <button className="language-button" onClick={handleLanguage}> {value} </button>
+            <button className="language-button" onClick={handleLanguage}> {language} </button>
           </li>
         </ul>
       </nav>

@@ -15,12 +15,12 @@ import { LanguageContext } from "./context/LanguageContext";
 
 function App() {
 
-  const [value, setValue] = useState("EN");
+  const [language, setLanguage] = useState("EN");
 
   return (
     <Router>
       <>
-        <LanguageContext.Provider value={{value, setValue}}>
+        <LanguageContext.Provider value={{language, setLanguage}}>
           <Navbar />
           <Route path="/" exact component={Home} />
           <Route path="/competences" exact component={Competences} />
