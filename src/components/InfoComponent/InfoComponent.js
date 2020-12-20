@@ -1,13 +1,17 @@
+// Dependencies
 import React, { useContext } from "react";
-
 import { LanguageContext } from "../../context/LanguageContext";
-
-import "./InfoComponent.css";
 import { FaMapMarkerAlt, FaPhone, FaMailBulk } from "react-icons/fa";
 
+// Styling
+import "./InfoComponent.css";
+
+// Components
 import Skills from "../Skills/Skills";
 
 export function InfoComponent() {
+
+  // language displayed
   const { language } = useContext(LanguageContext);
 
   return language === "EN" ? (

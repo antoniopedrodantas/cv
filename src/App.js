@@ -15,8 +15,10 @@ import { LanguageContext } from "./context/LanguageContext";
 
 function App() {
 
+  // default language
   const [language, setLanguage] = useState("EN");
 
+  // this file serves as router
   return (
     <Router>
       <>

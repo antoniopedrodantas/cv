@@ -1,5 +1,7 @@
+// Dependencies
 import React from "react";
 
+// Components
 import Projects from "../../components/Projects/Projects";
 import WorkExperience from "../../components/WorkExperience/WorkExperience";
 

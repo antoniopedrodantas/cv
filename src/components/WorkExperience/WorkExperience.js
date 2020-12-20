@@ -1,7 +1,9 @@
+// Dependencies
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 
 export function WorkExperience() {
+  // language displayed
   const { language } = useContext(LanguageContext);
 
   return language === "EN" ? (

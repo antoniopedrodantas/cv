@@ -1,3 +1,5 @@
+/* ---------- Mobile ---------- */
+
 .project-image {
     height: 150px;
     border-radius: 4px;
@@ -22,6 +24,8 @@
     margin-top: 2em;
     text-align: end;
 }
+
+/* ---------- Desktop ---------- */
 
 @media screen and (min-width: 1120px) {
 

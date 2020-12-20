@@ -1,11 +1,14 @@
+// Dependencies
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
-
-import "./ProfileComponent.css";
 import { FaMapMarkerAlt, FaGithub, FaInstagram } from "react-icons/fa";
 import { BiBookBookmark } from "react-icons/bi";
 
+// Styling
+import "./ProfileComponent.css";
+
 export function ProfileComponent() {
+  // language displayed
   const { language } = useContext(LanguageContext);
 
   return language === "EN" ? (

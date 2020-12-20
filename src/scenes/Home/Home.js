@@ -1,7 +1,10 @@
+// Dependencies
 import React from "react";
 
+// Styling
 import "./Home.css"
 
+// Components
 import InfoComponent from "../../components/InfoComponent/InfoComponent";
 import ProfileComponent from "../../components/ProfileComponent/ProfileComponent";
 

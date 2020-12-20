@@ -1,8 +1,4 @@
-.music {
-    height: 100px;
-    border-radius: 4px;
-    border: solid 4px #5cdb95;
-}
+/* -------------- Mobile -------------- */
 
 .my-music-me {
     height: 100px;
@@ -16,30 +12,10 @@
     border: solid 4px #5cdb95;
 }
 
-.music-wrapper {
-    margin: 2em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
-}
-
 .my-music-wrapper {
     margin: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.music-div {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.music-div-d {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    display: block;
 }
 
 .my-music-div {
@@ -48,18 +24,14 @@
     display: block;
 }
 
+/* -------------- Desktop -------------- */
+
 @media screen and (min-width: 1120px) {
 
     .my-music-wrapper {
         margin: 2em;
         display: grid;
         grid-template-columns: 65% 35%;
-    }
-
-    .music {
-        height: 250px;
-        border-radius: 4px;
-        border: solid 4px #5cdb95;
     }
 
     .my-music-me {
@@ -73,6 +45,5 @@
         border-radius: 4px;
         border: solid 4px #5cdb95;
     }
-    
 
 }

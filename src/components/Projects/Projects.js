@@ -1,9 +1,12 @@
+// Dependecies
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 
+// Styling
 import "./Project.css";
 
 export function Projects() {
+  // language displayed
   const { language } = useContext(LanguageContext);
 
   return language === "EN" ? (
