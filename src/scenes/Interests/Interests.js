@@ -9,7 +9,6 @@ class Interests extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
         <div className="info">
             <Music />
         </div>

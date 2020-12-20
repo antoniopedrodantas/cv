@@ -10,7 +10,6 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
         <div className="wrapper">
           <div>
             <ProfileComponent />

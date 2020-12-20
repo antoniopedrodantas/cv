@@ -11,7 +11,6 @@ class Competences extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
         <div className="info">
             <Formation />
             <br></br>

@@ -1,38 +1,47 @@
-import React from "react";
+import React, { useState, useContext } from "react";
+import { Link } from "react-router-dom";
 
 import './Navbar.css';
 import { FaTimes, FaBars } from "react-icons/fa";
+import { LanguageContext } from "../../context/LanguageContext";
 
-class Navbar extends React.Component {
+// class Navbar extends React.Component {
+export function Navbar(){
 
-  state = { clicked: false }
+  const {value, setValue} = useContext(LanguageContext);
 
-  handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
   }
 
-  render() {
+  const handleLanguage = () => {
+    if(value === "EN") {
+      setValue("PT")
+    }
+    else {
+      setValue("EN");
+    }
+  }
+
     return (
       <nav className="NavbarItems">
-        <h1><a className="navbar-logo" href="/"> CurriculumVitae </a></h1>
-        <div className="menu-icon" onClick={this.handleClick}>
-          <i className="icon"> {this.state.clicked ? <FaTimes /> : <FaBars />} </i>
+        <h1><Link className="navbar-logo" to="/"> CurriculumVitae </Link></h1>
+        <div className="menu-icon" onClick={handleClick}>
+          <i className="icon"> {clicked ? <FaTimes /> : <FaBars />} </i>
         </div>
-        <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+        <ul className={clicked ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a className="nav-links" href="/competences">Competences</a>
-            <a className="nav-links" href="/experience">Experience</a>
-            <a className="nav-links" href="/interests">Interests</a>
+            <Link className="nav-links" to="/competences">Competences</Link>
+            <Link className="nav-links" to="/experience">Experience</Link>
+            <Link className="nav-links" to="/interests">Interests</Link>
+            <button className="language-button" onClick={handleLanguage}> {value} </button>
           </li>
         </ul>
-       {/*   
-        <ul className={this.state.clicked ? "nav-icons active" : "nav-icons"}>
-          <a className="nav-links" href="https://github.com/antoniopedrodantas"><FaGithub /></a>
-        </ul>
-        */}
       </nav>
     );
-  }
+
 }
 
 export default Navbar;

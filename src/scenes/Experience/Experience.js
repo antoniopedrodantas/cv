@@ -10,7 +10,6 @@ class Experience extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
         <div className="info">
             <Projects />
             <br></br>
