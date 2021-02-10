@@ -8,7 +8,7 @@ export function WorkExperience() {
 
   return language === "EN" ? (
     <>
-      <div className="content-right">
+      <div className="content-left">
         <h1 className="card-title">Work Experience</h1>
         <div className="card-info">
           <p>
@@ -28,7 +28,7 @@ export function WorkExperience() {
     </>
   ) : (
     <>
-      <div className="content-right">
+      <div className="content-left">
         <h1 className="card-title">Experiência de Trabalho</h1>
         <div className="card-info">
           <p>
