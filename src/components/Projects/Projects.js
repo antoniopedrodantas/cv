@@ -103,8 +103,7 @@ export function Projects() {
             <mark>Desenvolvimento Web</mark> . O objetivo era criar um site de{" "}
             <mark>Q&A</mark> interativo, onde as pessoas se pudessem registar,
             fazer perguntas e receber respostas pertinentes. Utilizamos a
-            framework <mark>Laravel</mark>
-            para este projeto.
+            framework <mark>Laravel</mark> para este projeto.
           </p>
         </div>
       </div>

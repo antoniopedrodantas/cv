@@ -3,13 +3,13 @@
 .my-music-me {
   height: 100px;
   border-radius: 4px;
-  border: solid 4px #5cdb95;
+  border: solid 4px var(--color-one);
 }
 
 .my-music-radio {
   height: 100px;
   border-radius: 4px;
-  border: solid 4px #5cdb95;
+  border: solid 4px var(--color-one);
 }
 
 .my-music-wrapper {
@@ -36,12 +36,12 @@
   .my-music-me {
     height: 500px;
     border-radius: 4px;
-    border: solid 4px #5cdb95;
+    border: solid 4px var(--color-one);
   }
 
   .my-music-radio {
     height: 250px;
     border-radius: 4px;
-    border: solid 4px #5cdb95;
+    border: solid 4px var(--color-one);
   }
 }

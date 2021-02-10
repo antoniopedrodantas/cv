@@ -1,5 +1,5 @@
 .info {
-  background-color: rgb(18, 21, 25);
+  background-color: var(--color-card);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -15,7 +15,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 50px;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 .idented-paragraph {

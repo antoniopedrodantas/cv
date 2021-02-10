@@ -1,5 +1,5 @@
 .NavbarItems {
-  background-color: rgb(18, 21, 25);
+  background-color: var(--color-card);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 /* ---------- CurriculumVitae ---------- */
 
 .navbar-logo {
-  color: #5cdb95;
+  color: var(--color-one);
   justify-self: start;
   margin-left: 2rem;
   cursor: pointer;
@@ -18,7 +18,7 @@
 }
 
 .navbar-logo:hover {
-  color: #379863;
+  color: var(--color-two);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -36,20 +36,20 @@
 }
 
 .nav-links {
-  color: #5cdb95;
+  color: var(--color-one);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-  color: #379863;
+  color: var(--color-two);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .language-button {
-  background-color: #5cdb95;
-  color: rgb(18, 21, 25);
+  background-color: var(--color-one);
+  color: var(--color-card);
   text-decoration: none;
   padding: 0.5rem 1rem;
   margin: 1em;
@@ -58,8 +58,8 @@
 }
 
 .language-button:hover {
-  background-color: #379863;
-  color: rgb(18, 21, 25);
+  background-color: var(--color-two);
+  color: var(--color-card);
   text-decoration: none;
   padding: 0.5rem 1rem;
   margin: 1em;
@@ -70,7 +70,7 @@
 
 .icon {
   align-self: center;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 .nav-links-mobile {
@@ -89,7 +89,7 @@
   }
 
   .navbar-logo {
-    color: #5cdb95;
+    color: var(--color-one);
     justify-self: center;
     cursor: pointer;
     text-align: center;
@@ -109,7 +109,7 @@
   }
 
   .nav-menu.active {
-    background: rgb(18, 21, 25);
+    background: var(--color-card);
     left: 0%;
     z-index: 1;
     transition: all 0.5s ease;

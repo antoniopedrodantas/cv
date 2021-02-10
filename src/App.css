@@ -6,7 +6,10 @@
 
 html,
 body {
-  background-color: rgb(12, 14, 18);
+  background-color: rgb(12,14,18);
+  --color-card: rgb(18,21,25);
+  --color-one: #5cdb95;
+  --color-two: #379863;
 }
 
 .content-right {
@@ -15,17 +18,17 @@ body {
 
 .card-title {
   margin: 1em;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 mark {
-  color: #5cdb95;
-  background-color: rgb(18, 21, 25);
+  color: var(--color-one);
+  background-color: var(--color-card)
 }
 
 .card-info {
   margin: 1em;
-  color: #ffffff;
+  color: white;
 }
 
 .separator {
@@ -35,5 +38,5 @@ mark {
 
 .card-section {
   margin: 1em;
-  color: #5cdb95;
+  color: var(--color-one);
 }
