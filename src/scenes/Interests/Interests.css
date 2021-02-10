@@ -1,0 +1,116 @@
+/* ------- Desktop ------- */
+
+@media screen and (min-width: 914px) {
+  .interests-wrapper {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ------- Music ------- */
+
+  .spotify-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75% 25%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "one three"
+      "two three";
+    margin-top: 1em;
+    margin: 1em;
+    padding: 1em;
+    padding-left: 1em;
+    border-radius: 4px;
+    flex-direction: column;
+  }
+  .spotify-playlist {
+    grid-area: one;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  .spotify-artist {
+    grid-area: two;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  .concert-photo {
+    grid-area: three;
+    width: 100%;
+    height: 100%;
+  }
+
+  .concert {
+    border-radius: 4px;
+    border: solid var(--color-one);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("https://i.imgur.com/hGe4tAy.jpeg");
+  }
+
+  /* ------- Friends ------- */
+
+  .friends-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 1em;
+    border-radius: 4px;
+    border-radius: 4px;
+    border: solid var(--color-one);
+  }
+
+  .friends-photo-1 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("https://i.imgur.com/t8bpvyB.jpg");
+  }
+  .friends-photo-2 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("https://i.imgur.com/DFFzjJI.jpg");
+  }
+  .friends-photo-3 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("https://i.imgur.com/SN7WdXj.png");
+  }
+}
+
+/* ------- Mobile ------- */
+
+.concert {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("https://i.imgur.com/hGe4tAy.jpeg");
+}
+
+.spotify-wrapper {
+  margin-top: 1em;
+  margin: 1em;
+  padding: 1em;
+  padding-left: 1em;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+.spotify-playlist {
+  display: flex;
+  justify-content: center;
+}
+.spotify-artist {
+  display: flex;
+  justify-content: center;
+}

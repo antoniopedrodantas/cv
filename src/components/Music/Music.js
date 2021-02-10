@@ -31,25 +31,8 @@ export function Music() {
             chance to do some gigs in our country of <mark>Portugal </mark>
             and in <mark>Spain</mark>.
           </p>
-          <div className="my-music-wrapper">
-            <div className="my-music-div">
-              <img
-                src="/concert.JPG"
-                className="my-music-me"
-                alt="Me playing"
-              ></img>
-            </div>
-            <div className="my-music-div">
-              <img
-                src="/antena-3.png"
-                className="my-music-radio"
-                alt="Antena 3"
-              ></img>
-            </div>
-          </div>
         </div>
       </div>
-      <br></br>
     </>
   ) : (
     <>
@@ -74,22 +57,6 @@ export function Music() {
             tivemos a oportunidade de dar alguns concertos tanto em{" "}
             <mark>Portugal</mark> como em <mark>Espanha</mark>.
           </p>
-          <div className="my-music-wrapper">
-            <div className="my-music-div">
-              <img
-                src="/concert.JPG"
-                className="my-music-me"
-                alt="Me playing"
-              ></img>
-            </div>
-            <div className="my-music-div">
-              <img
-                src="/antena-3.png"
-                className="my-music-radio"
-                alt="Antena 3"
-              ></img>
-            </div>
-          </div>
         </div>
       </div>
       <br></br>
