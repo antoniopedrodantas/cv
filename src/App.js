@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 // Dependencies
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { LanguageContext } from "./context/LanguageContext";
 
 function App() {
@@ -23,10 +23,23 @@ function App() {
       <LanguageContext.Provider value={{ language, setLanguage }}>
         <Router>
           <Navbar />
-          <Route path="/" exact component={Home} />
-          <Route path="/education" exact component={Education} />
-          <Route path="/experience" exact component={Experiece} />
-          <Route path="/interests" exact component={Interests} />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/education">
+              {" "}
+              <Education />
+            </Route>
+            <Route exact path="/experience">
+              {" "}
+              <Experiece />
+            </Route>
+            <Route exact path="/interests">
+              {" "}
+              <Interests />
+            </Route>
+          </Switch>
         </Router>
       </LanguageContext.Provider>
     </>
