@@ -15,10 +15,8 @@ export function Music() {
         <h1 className="card-title">Music</h1>
         <div className="card-info">
           <p>
-            Being a student in my early 20s there are a lot of things I'm
-            interested in. Travelling, cinema, humour and hanging out with my
-            friends would be some of them. But without question that{" "}
-            <mark>music</mark> is on top of that list.
+            Without question that{" "}
+            <mark>music</mark> is my main area of interest.
           </p>
           <p>
             I take part of a high-school band called <mark>Jepards</mark>. Our
@@ -40,10 +38,8 @@ export function Music() {
         <h1 className="card-title">Música</h1>
         <div className="card-info">
           <p>
-            Sendo eu um estudante nos meus 20 e poucos anos, existem muitas
-            coisas pelas quais me interesso. Cinema, humor, viajar e divertir-me
-            com os meus amigos seriam algumas delas. Mas sem sombra de dúvida
-            que a <mark>música</mark> estaria no topo da lista.
+            Sem sombra de dúvida
+            que a <mark>música</mark> é a minha maior área de interesse.
           </p>
           <p>
             Eu faço parte de uma banda de amigos de faculdade chamada{" "}

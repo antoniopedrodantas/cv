@@ -6,6 +6,7 @@ import "./Interests.css";
 
 // Components
 import Music from "../../components/Music/Music";
+import OtherInterests from "../../components/OtherInterests/OtherInterests";
 
 class Interests extends React.Component {
   render() {
@@ -41,22 +42,16 @@ class Interests extends React.Component {
               ></iframe>
             </div>
           </div>
-
           <div className="friends-wrapper">
-            <div className="friends-photo-1">
-              <div className="friends-1"></div>
-            </div>
-            <div className="friends-photo-2">
+            <div className="concert-photo-2">
               <div className="friends-2"></div>
-            </div>
-            <div className="friends-photo-3">
-              <div className="friends-3"></div>
             </div>
           </div>
           <div className="info">
-            <Music />
+            <OtherInterests />
           </div>
         </div>
+        <br></br>
       </>
     );
   }
