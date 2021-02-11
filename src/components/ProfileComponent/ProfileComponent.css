@@ -8,11 +8,11 @@ img {
 
 .rounded {
   border-radius: 50%;
-  border: 8px solid #5cdb95;
+  border: 8px solid var(--color-one);
 }
 
 .name {
-  color: #5cdb95;
+  color: var(--color-one);
   margin: 1em;
   text-align: center;
 }
@@ -38,7 +38,7 @@ img {
   justify-content: start;
   text-align: start;
   width: 100%;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 .little-info-right-up {
@@ -46,7 +46,7 @@ img {
   text-align: end;
   width: 100%;
   justify-content: end;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 .little-info-left-down {
@@ -54,7 +54,7 @@ img {
   justify-content: start;
   text-align: start;
   width: 100%;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 .little-info-right-down {
@@ -62,17 +62,17 @@ img {
   text-align: end;
   width: 100%;
   justify-content: end;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 a.little-paragraph {
   cursor: pointer;
   text-decoration: none;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 a.little-paragraph:hover {
-  color: #379863;
+  color: var(--color-two);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }

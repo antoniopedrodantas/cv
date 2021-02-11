@@ -9,7 +9,7 @@
 }
 
 .project-title {
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 .div1 {
@@ -69,14 +69,14 @@
 }
 
 div.content-right-icon {
-  background-color: rgb(18, 21, 25);
+  background-color: var(--color-card);
   justify-items: end;
 }
 
 .icons-wrapper {
   margin-bottom: 1em;
   margin-right: 1em;
-  color: #5cdb95;
+  color: var(--color-one);
 }
 
 .icon-wrapper {

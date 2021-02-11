@@ -30,10 +30,6 @@ export function InfoComponent() {
             </p>
             <p className="idented-paragraph">
               {" "}
-              <FaPhone /> +351 918 597 308
-            </p>
-            <p className="idented-paragraph">
-              {" "}
               <FaMailBulk /> pedro.dantascv@gmail.com
             </p>
           </div>{" "}
