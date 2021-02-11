@@ -8,8 +8,10 @@ html,
 body {
   background-color: rgb(12,14,18);
   --color-card: rgb(18,21,25);
-  --color-one: #5cdb95;
-  --color-two: #379863;
+  /* --color-one: #5cdb95; */
+  /* --color-two: #379863; */
+  --color-one: #64d0d1;
+  --color-two: #3e9596;
 }
 
 .content-right {

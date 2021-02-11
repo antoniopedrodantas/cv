@@ -6,7 +6,7 @@ import Formation from "../../components/Formation/Formation";
 import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Skills from "../../components/Skills/Skills";
 
-class Competences extends React.Component {
+class Education extends React.Component {
   render() {
     return (
       <>
@@ -25,4 +25,4 @@ class Competences extends React.Component {
   }
 }
 
-export default Competences;
+export default Education;
