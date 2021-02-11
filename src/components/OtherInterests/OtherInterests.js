@@ -22,19 +22,19 @@ export function OtherInterests() {
           <div className="idented">
             <p className="idented-paragraph">
               {" "}
-              <GiCommercialAirplane /> Travelling
+              <GiCommercialAirplane className="icon-text" /> Travelling
             </p>
             <p className="idented-paragraph">
               {" "}
-              <BiCameraMovie /> Cinema
+              <BiCameraMovie className="icon-text" /> Cinema
             </p>
             <p className="idented-paragraph">
               {" "}
-              <FaTheaterMasks /> Comedy
+              <FaTheaterMasks className="icon-text" /> Comedy
             </p>
             <p className="idented-paragraph">
               {" "}
-              <BiDrink /> Social Life
+              <BiDrink className="icon-text" /> Social Life
             </p>
           </div>
         </div>
@@ -53,19 +53,19 @@ export function OtherInterests() {
           <div className="idented">
             <p className="idented-paragraph">
               {" "}
-              <GiCommercialAirplane /> Viajar
+              <GiCommercialAirplane className="icon-text" /> Viajar
             </p>
             <p className="idented-paragraph">
               {" "}
-              <BiCameraMovie /> Cinema
+              <BiCameraMovie className="icon-text" /> Cinema
             </p>
             <p className="idented-paragraph">
               {" "}
-              <FaTheaterMasks /> Humor
+              <FaTheaterMasks className="icon-text" /> Humor
             </p>
             <p className="idented-paragraph">
               {" "}
-              <BiDrink /> Vida Social
+              <BiDrink className="icon-text" /> Vida Social
             </p>
           </div>
         </div>

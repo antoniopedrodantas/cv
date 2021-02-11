@@ -27,34 +27,34 @@ export function ProfileComponent() {
           <div className="little-links">
             <div className="little-info-left-up">
               <a
-                className="little-paragraph"
+                className="little-paragraph-start"
                 href="https://www.google.com/search?q=portugal"
               >
-                <FaMapMarkerAlt /> Portugal
+                <FaMapMarkerAlt size={25} className="icon-text"/> Portugal
               </a>
             </div>
             <div className="little-info-right-up">
               <a
-                className="little-paragraph"
+                className="little-paragraph-end"
                 href="https://sigarra.up.pt/feup/pt/web_page.inicial"
               >
-                <BiBookBookmark /> F.E.U.P.
+                <BiBookBookmark size={25} className="icon-text" /> F.E.U.P.
               </a>
             </div>
             <div className="little-info-left-down">
               <a
-                className="little-paragraph"
+                className="little-paragraph-start"
                 href="https://github.com/antoniopedrodantas"
               >
-                <FaGithub /> GitHub
+                <FaGithub size={25} className="icon-text" /> GitHub
               </a>
             </div>
             <div className="little-info-right-down">
               <a
-                className="little-paragraph"
+                className="little-paragraph-end"
                 href="https://www.instagram.com/pedrodantaspedro/"
               >
-                <FaInstagram /> Instagram
+                <FaInstagram size={25} className="icon-text" /> Instagram
               </a>
             </div>
           </div>
@@ -77,34 +77,34 @@ export function ProfileComponent() {
           <div className="little-links">
             <div className="little-info-left-up">
               <a
-                className="little-paragraph"
+                className="little-paragraph-start"
                 href="https://www.google.com/search?q=portugal"
               >
-                <FaMapMarkerAlt /> Portugal
+                <FaMapMarkerAlt size={25} className="icon-text" /> Portugal
               </a>
             </div>
             <div className="little-info-right-up">
               <a
-                className="little-paragraph"
+                className="little-paragraph-end"
                 href="https://sigarra.up.pt/feup/pt/web_page.inicial"
               >
-                <BiBookBookmark /> F.E.U.P.
+                <BiBookBookmark size={25} className="icon-text" /> F.E.U.P.
               </a>
             </div>
             <div className="little-info-left-down">
               <a
-                className="little-paragraph"
+                className="little-paragraph-start"
                 href="https://github.com/antoniopedrodantas"
               >
-                <FaGithub /> GitHub
+                <FaGithub size={25} className="icon-text" /> GitHub
               </a>
             </div>
             <div className="little-info-right-down">
               <a
-                className="little-paragraph"
+                className="little-paragraph-end"
                 href="https://www.instagram.com/pedrodantaspedro/"
               >
-                <FaInstagram /> Instagram
+                <FaInstagram size={25} className="icon-text" /> Instagram
               </a>
             </div>
           </div>
