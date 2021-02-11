@@ -41,8 +41,8 @@ export function Navbar() {
       </div>
       <ul className={clicked ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link className="nav-links" to="/competences">
-            Competences
+          <Link className="nav-links" to="/education">
+            Education
           </Link>
           <Link className="nav-links" to="/experience">
             Experience
@@ -70,8 +70,8 @@ export function Navbar() {
       </div>
       <ul className={clicked ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link className="nav-links" to="/competences">
-            Competências
+          <Link className="nav-links" to="/education">
+            Educação
           </Link>
           <Link className="nav-links" to="/experience">
             Experiência

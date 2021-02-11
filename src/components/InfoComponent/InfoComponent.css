@@ -20,4 +20,6 @@
 
 .idented-paragraph {
   margin-top: 1em;
+  display: flex;
+  align-items: center;
 }

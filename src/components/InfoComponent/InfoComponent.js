@@ -1,7 +1,7 @@
 // Dependencies
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
-import { FaMapMarkerAlt, FaPhone, FaMailBulk } from "react-icons/fa";
+import { FaMapMarkerAlt, FaMailBulk } from "react-icons/fa";
 
 // Styling
 import "./InfoComponent.css";
@@ -26,11 +26,11 @@ export function InfoComponent() {
           <div className="idented">
             <p className="idented-paragraph">
               {" "}
-              <FaMapMarkerAlt /> Fafe, Braga
+              <FaMapMarkerAlt className="icon-text" /> Fafe, Braga
             </p>
             <p className="idented-paragraph">
               {" "}
-              <FaMailBulk /> pedro.dantascv@gmail.com
+              <FaMailBulk className="icon-text" /> pedro.dantascv@gmail.com
             </p>
           </div>{" "}
           This is my online Curriculum Vitae! Here, I'll try to give you an
@@ -59,15 +59,11 @@ export function InfoComponent() {
           <div className="idented">
             <p className="idented-paragraph">
               {" "}
-              <FaMapMarkerAlt /> Fafe, Braga
+              <FaMapMarkerAlt className="icon-text" /> Fafe, Braga
             </p>
             <p className="idented-paragraph">
               {" "}
-              <FaPhone /> +351 918 597 308
-            </p>
-            <p className="idented-paragraph">
-              {" "}
-              <FaMailBulk /> pedro.dantascv@gmail.com
+              <FaMailBulk className="icon-text" /> pedro.dantascv@gmail.com
             </p>
           </div>{" "}
           Este é o meu Curriculum Vitae online! Aqui vou tentar dar algum
