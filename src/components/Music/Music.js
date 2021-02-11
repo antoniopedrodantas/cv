@@ -44,7 +44,7 @@ export function Music() {
           <p>
             Eu faço parte de uma banda de amigos de faculdade chamada{" "}
             <mark>Jepards</mark>. O nosso EP, <mark>Okay, Alright!</mark>, está
-            disponível em todas as plataformas de straming. As nossas principais
+            disponível em todas as plataformas de streaming. As nossas principais
             influências são The Strokes, Arctic Monkeys e todas essas bandas que
             apareceram no renascimento do rock n' roll dos anos 2000. As nossas
             músicas já passaram em várias rádios nacionais como a{" "}
