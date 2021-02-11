@@ -30,7 +30,7 @@ export function ProfileComponent() {
                 className="little-paragraph-start"
                 href="https://www.google.com/search?q=portugal"
               >
-                <FaMapMarkerAlt size={25} className="icon-text"/> Portugal
+                <FaMapMarkerAlt size={25} className="icon-text" /> Portugal
               </a>
             </div>
             <div className="little-info-right-up">

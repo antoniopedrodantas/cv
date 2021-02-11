@@ -1,7 +1,7 @@
 // Dependencies
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
-import { FaMapMarkerAlt, FaPhone, FaMailBulk } from "react-icons/fa";
+import { FaMapMarkerAlt, FaMailBulk } from "react-icons/fa";
 
 // Styling
 import "./InfoComponent.css";
