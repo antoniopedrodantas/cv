@@ -18,6 +18,7 @@ class Experience extends React.Component {
         <div className="projects-wrapper">
           <Projects />
         </div>
+        <br></br>
       </>
     );
   }
