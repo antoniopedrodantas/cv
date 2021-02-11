@@ -1,5 +1,8 @@
 /* ---------- Mobile ---------- */
 
+.a {
+  text-decoration: none;
+}
 .project-image {
   max-width: 100%;
   max-height: 100%;
@@ -33,6 +36,7 @@
   width: 100%;
   height: 100%;
   background-image: url("https://i.imgur.com/8GFm3wo.png");
+  /* background-image: url("https://i.imgur.com/9frbnIA.png"); */
   background-position: center;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
@@ -42,7 +46,7 @@
   border-top-right-radius: 4px;
   width: 100%;
   height: 100%;
-  background-image: url("https://i.imgur.com/wW308Sj.png");
+  background-image: url("https://i.imgur.com/1isrnvH.png");
   background-position: center;
   background-size: cover; /* Resize the background image to cover the entire container */
 }
@@ -68,19 +72,35 @@
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.img-wrapper-meddigital {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://i.imgur.com/WPiApcm.jpeg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
 div.content-right-icon {
   background-color: var(--color-card);
   justify-items: end;
 }
 
 .icons-wrapper {
-  margin-bottom: 1em;
-  margin-right: 1em;
+  background-color: var(--color-card);
+  padding: 0.5em;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
+  float: right;
   color: var(--color-one);
+  text-align: end;
 }
 
 .icon-wrapper {
-  margin: 0.5em;
+  color: var(--color-one);
+  margin-left: 0.5em;
 }
 
 /* ---------- Desktop ---------- */

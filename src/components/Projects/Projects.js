@@ -34,7 +34,7 @@ export function Projects() {
           <div className="img-wrapper-lift"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Lift Management System</h3>
+          <a className="project-title" href="https://github.com/antoniopedrodantas/aiad-feup"><h3 className="project-title"> Lift Management System</h3></a>
           <br></br>
           <p>
             {" "}
@@ -55,7 +55,7 @@ export function Projects() {
           <div className="img-wrapper-tempura"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Tempura</h3>
+        <a className="project-title" href="https://github.com/antoniopedrodantas/sinf-feup"><h3 className="project-title">Tempura</h3></a>
           <br></br>
           <p>
             Tempura was a fictional company we created for the{" "}
@@ -74,7 +74,7 @@ export function Projects() {
           <div className="img-wrapper-box"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Box World</h3>
+        <a className="project-title" href="https://github.com/antoniopedrodantas/iart-feup"><h3 className="project-title">Box World</h3></a>
           <br></br>
           <p>
             For the <mark>Artificial Intelligence</mark> class we had to develop
@@ -83,6 +83,29 @@ export function Projects() {
             get to the blue square. In order to do so it will have to solve the
             level's layout by pushing some boxes and ice cubes. This project was
             made using <mark>Pyhton</mark>.
+          </p>
+          <br></br>
+        </div>
+      </div>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
+          <div className="img-wrapper-meddigital"></div>
+        </div>
+        <div className="info-wrapper">
+          <h3 className="project-title"> Air MedDigital</h3>
+          <br></br>
+          <p>
+            {" "}
+            MedDigital was our project for the <mark>
+              Software Development
+            </mark>{" "}
+            course. The goal was to create a platform that held{" "}
+            <mark>medical records</mark> of all kinds of aircraft workers.
+            Pilots could log in and check if they are fit for the job. Doctors
+            could upload various kinds of medical exams and the major entities
+            could browse all of its workers. We used the <mark>MERN</mark> stack
+            to develop this project (<mark>MongoDB</mark>, <mark>Express</mark>,{" "}
+            <mark>React</mark> & <mark>Node</mark>).
           </p>
           <br></br>
         </div>
@@ -112,7 +135,7 @@ export function Projects() {
           <div className="img-wrapper-lift"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Sistema de Gestão de Elevadores</h3>
+        <a className="project-title" href="https://github.com/antoniopedrodantas/aiad-feup"><h3 className="project-title"> Sistema de Gestão de Elevadores</h3></a>
           <br></br>
           <p>
             {" "}
@@ -132,7 +155,7 @@ export function Projects() {
           <div className="img-wrapper-tempura"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Tempura</h3>
+        <a className="project-title" href="https://github.com/antoniopedrodantas/sinf-feup"><h3 className="project-title">Tempura</h3></a>
           <br></br>
           <p>
             Tempura foi uma empresa fictícia que criamos para a cadeira de{" "}
@@ -149,7 +172,7 @@ export function Projects() {
           <div className="img-wrapper-box"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Box World</h3>
+        <a className="project-title" href="https://github.com/antoniopedrodantas/iart-feup"><h3 className="project-title">Box World</h3></a>
           <br></br>
           <p>
             Para a cadeira de <mark>Inteligência Artificial</mark> tivemos de
@@ -160,6 +183,28 @@ export function Projects() {
             mover-se e empurrar caixas e blocos de gelo. Este projeto foi feito
             com <mark>Python</mark>.
           </p>
+        </div>
+      </div>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
+          <div className="img-wrapper-meddigital"></div>
+        </div>
+        <div className="info-wrapper">
+          <h3 className="project-title"> Air MedDigital</h3>
+          <br></br>
+          <p>
+            {" "}
+            MedDigital foi o nosso projeto para a cadeira de{" "}
+            <mark>Desenvolvimento de Software</mark>. O objetivo era criar uma
+            plataforma que detivesse <mark>registos médicos</mark> de todos os
+            tipos de profissionais de aviação. Os pilotos poderiam entrar para
+            ver se estão aptos para o voar. Os médicos poderiam fazer upload de
+            todos os tipos de exames e as grandes entidades poderiam pesquisar e
+            acompanhar todos os seus profissionais. Utilizamos a{" "}
+            <mark>MERN</mark> stack para o desenvolvimento (<mark>MongoDB</mark>
+            , <mark>Express</mark>, <mark>React</mark> & <mark>Node</mark>).
+          </p>
+          <br></br>
         </div>
       </div>
     </>

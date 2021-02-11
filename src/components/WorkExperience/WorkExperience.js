@@ -23,6 +23,13 @@ export function WorkExperience() {
             stock replenisher.
           </p>
           <br></br>
+          <p>
+            Throughout the years, I have had the oppurtunity to develop lots of
+            different <mark>projects</mark> for almost every college course I
+            had. It would be pointless to show here all of the in depth, so I'll
+            just list the ones I am more proud of and think are more useful.
+          </p>
+          <br></br>
         </div>
       </div>
     </>
@@ -42,6 +49,14 @@ export function WorkExperience() {
           <p>
             <mark>[2015]</mark>: Trabalho part-time numa <mark>Farmácia</mark>{" "}
             como repositor de stock.
+          </p>
+          <br></br>
+          <p>
+            Ao longo dos anos, eu tive a oportunidade de desenvolver bastantes
+            <mark>projetos</mark> diferentes para quase todas as cadeiras que
+            tive na faculdade. Seria desnecessário mostrar aqui todos eles,
+            então vou apenas listar aqueles de que me orgulho mais e acho mais
+            úteis.
           </p>
           <br></br>
         </div>
