@@ -19,17 +19,17 @@ function App() {
 
   // this file serves as router
   return (
-    <Router>
-      <>
-        <LanguageContext.Provider value={{ language, setLanguage }}>
+    <>
+      <LanguageContext.Provider value={{ language, setLanguage }}>
+        <Router>
           <Navbar />
           <Route path="/" exact component={Home} />
           <Route path="/competences" exact component={Competences} />
           <Route path="/experience" exact component={Experiece} />
           <Route path="/interests" exact component={Interests} />
-        </LanguageContext.Provider>
-      </>
-    </Router>
+        </Router>
+      </LanguageContext.Provider>
+    </>
   );
 }
 
