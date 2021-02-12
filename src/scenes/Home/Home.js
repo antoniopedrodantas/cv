@@ -20,6 +20,7 @@ class Home extends React.Component {
             <InfoComponent />
           </div>
         </div>
+        <br></br>
       </>
     );
   }
