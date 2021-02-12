@@ -7,6 +7,7 @@ import "./Experience.css";
 // Components
 import Projects from "../../components/Projects/Projects";
 import WorkExperience from "../../components/WorkExperience/WorkExperience";
+import Disclaimer from "../../components/Disclaimer/Disclaimer";
 
 class Experience extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class Experience extends React.Component {
         <div className="projects-wrapper">
           <Projects />
         </div>
+          <Disclaimer />
         <br></br>
       </>
     );

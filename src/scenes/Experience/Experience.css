@@ -19,6 +19,8 @@
   margin: 1em;
   border-radius: 4px;
   transition: 0.3s;
+  max-height: 350px;
+  overflow: hidden;
 }
 
 .project-wrapper:hover {
@@ -36,4 +38,11 @@
 .info-wrapper {
   padding: 1em;
   color: white;
+  overflow-y: scroll;
+}
+
+.card-disclaimer {
+  margin: 1em;
+  color: var(--color-one);
+  text-align: center;
 }

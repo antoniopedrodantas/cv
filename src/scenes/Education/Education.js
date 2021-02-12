@@ -20,6 +20,7 @@ class Education extends React.Component {
           <Skills />
           <br></br>
         </div>
+        <br></br>
       </>
     );
   }

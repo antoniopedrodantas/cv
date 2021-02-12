@@ -39,7 +39,7 @@ export function InfoComponent() {
           Let's dive in!{" "}
         </div>
         <br></br>
-        <hr className="separator"></hr>
+        <hr></hr>
         <br></br>
         <Skills />
         <br></br>
@@ -72,7 +72,7 @@ export function InfoComponent() {
           conquistas pessoais. Vamos a isso!{" "}
         </div>
         <br></br>
-        <hr className="separator"></hr>
+        <hr></hr>
         <br></br>
         <Skills />
         <br></br>

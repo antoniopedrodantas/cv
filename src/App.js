@@ -7,6 +7,7 @@ import Education from "./scenes/Education/Education";
 import Experiece from "./scenes/Experience/Experience";
 import Interests from "./scenes/Interests/Interests";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 // Dependencies
 import React, { useState } from "react";
@@ -40,6 +41,7 @@ function App() {
               <Interests />
             </Route>
           </Switch>
+          <Footer />
         </Router>
       </LanguageContext.Provider>
     </>

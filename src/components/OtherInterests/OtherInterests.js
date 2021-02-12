@@ -43,7 +43,7 @@ export function OtherInterests() {
   ) : (
     <>
       <div className="content-left">
-        <h1 className="card-title">Outro Interesses</h1>
+        <h1 className="card-title">Outros Interesses</h1>
         <div className="card-info">
           <p>
             Sendo eu um estudante nos meus 20 e poucos anos, existem muitas
