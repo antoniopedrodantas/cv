@@ -29,6 +29,12 @@ export function Music() {
             chance to do some gigs in our country of <mark>Portugal </mark>
             and in <mark>Spain</mark>.
           </p>
+          <p>
+            Music production has also captured my interest in the last few years. Recording with Jepards made me very curious 
+            about <mark>sound engineering</mark> and I have been trying to learn it on my own. I assembled a little bedroom studio
+            in which I have been recording some DIY style instrumentals. I can now produce somewhat decently, understand how sound recording and acoustic treatment 
+            work and get along with pretty much any <mark>Digital Audio Workstation</mark>.
+          </p>
         </div>
       </div>
     </>
@@ -52,6 +58,12 @@ export function Music() {
             incluidos na compilação <mark>Novos Talentos FNAC - 2019</mark> e
             tivemos a oportunidade de dar alguns concertos tanto em{" "}
             <mark>Portugal</mark> como em <mark>Espanha</mark>.
+          </p>
+          <p>
+            Produção musical também tem capturado o meu interesse nos últimos anos. Gravar com os Jepards pôs-me bastante curioso
+            na área de <mark>engenharia de som</mark> e tenho tentado aprender alguns conceitos. Montei um pequeno estúdio no meu quarto 
+            no qual tenho gravado alguns instrumentais ao estilo DIY. Agora, consigo produzir até decentemente, percebo como a gravação de som 
+            e tratamento acústico funcionam e desenrasco-me com praticamente qualquer <mark>Digital Audio Workstation</mark>.
           </p>
         </div>
       </div>
