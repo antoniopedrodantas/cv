@@ -7,8 +7,15 @@ img {
 }
 
 .rounded {
+  border: 16px;
+  background: linear-gradient(
+    30deg,
+    var(--color-one) 50%,
+    var(--color-gradient) 100%
+  );
   border-radius: 50%;
-  border: 4px solid var(--color-one);
+  display: inline-block;
+  padding: 4px;
 }
 
 .name {
@@ -80,7 +87,7 @@ a.little-paragraph-end {
   color: var(--color-one);
   display: flex;
   align-items: center;
-  justify-content:  flex-end;
+  justify-content: flex-end;
 }
 
 a.little-paragraph-start:hover {
@@ -95,7 +102,7 @@ a.little-paragraph-end:hover {
   transition: all 0.2s ease-out;
 }
 
-.icon-text{
+.icon-text {
   padding-right: 3px;
 }
 

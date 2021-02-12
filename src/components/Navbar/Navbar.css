@@ -48,7 +48,11 @@
 }
 
 .language-button {
-  background-color: var(--color-one);
+  background: linear-gradient(
+    30deg,
+    var(--color-one) 30%,
+    var(--color-gradient) 100%
+  );
   color: var(--color-card);
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -58,7 +62,11 @@
 }
 
 .language-button:hover {
-  background-color: var(--color-two);
+  background: linear-gradient(
+    30deg,
+    var(--color-one) 5%,
+    var(--color-gradient) 100%
+  );
   color: var(--color-card);
   text-decoration: none;
   padding: 0.5rem 1rem;
