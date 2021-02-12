@@ -16,7 +16,7 @@ export function Projects() {
           <div className="img-wrapper-answerly"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Answerly</h3>
+          <h3 className="project-title"> Answerly*</h3>
           <br></br>
           <p>
             {" "}
@@ -92,7 +92,7 @@ export function Projects() {
           <div className="img-wrapper-meddigital"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Air MedDigital</h3>
+          <h3 className="project-title"> Air MedDigital*</h3>
           <br></br>
           <p>
             {" "}
@@ -118,7 +118,7 @@ export function Projects() {
           <div className="img-wrapper-answerly"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Answerly</h3>
+          <h3 className="project-title"> Answerly*</h3>
           <br></br>
           <p>
             {" "}
@@ -190,7 +190,7 @@ export function Projects() {
           <div className="img-wrapper-meddigital"></div>
         </div>
         <div className="info-wrapper">
-          <h3 className="project-title"> Air MedDigital</h3>
+          <h3 className="project-title"> Air MedDigital*</h3>
           <br></br>
           <p>
             {" "}

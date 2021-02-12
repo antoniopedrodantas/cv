@@ -37,3 +37,9 @@
   padding: 1em;
   color: white;
 }
+
+.card-disclaimer {
+  margin: 1em;
+  color: var(--color-one);
+  text-align: center;
+}
