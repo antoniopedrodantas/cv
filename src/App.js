@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 // Dependencies
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import { LanguageContext } from "./context/LanguageContext";
 
 function App() {
