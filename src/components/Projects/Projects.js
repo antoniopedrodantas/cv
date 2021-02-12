@@ -1,6 +1,16 @@
 // Dependecies
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
+import {
+  SiJavascript,
+  SiPhp,
+  SiHtml5,
+  SiCsswizardry,
+  SiPython,
+  SiJava,
+  SiTypescript,
+  SiMongodb,
+} from "react-icons/si";
 
 // Styling
 import "./Project.css";
@@ -32,6 +42,12 @@ export function Projects() {
             <mark>React</mark> & <mark>Node</mark>).
           </p>
           <br></br>
+          <div className="content-right">
+            <SiHtml5 size={30} className="icon-projects" />
+            <SiCsswizardry size={30} className="icon-projects" />
+            <SiMongodb size={30} className="icon-projects" />
+            <SiJavascript size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
       <div className="project-wrapper">
@@ -58,6 +74,9 @@ export function Projects() {
             Repast libraries.
           </p>
           <br></br>
+          <div className="content-right">
+            <SiJava size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
       <div className="project-wrapper">
@@ -82,6 +101,11 @@ export function Projects() {
             development.
           </p>
           <br></br>
+          <div className="content-right">
+            <SiHtml5 size={30} className="icon-projects" />
+            <SiCsswizardry size={30} className="icon-projects" />
+            <SiTypescript size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
       <div className="project-wrapper">
@@ -105,6 +129,9 @@ export function Projects() {
             made using <mark>Pyhton</mark>.
           </p>
           <br></br>
+          <div className="content-right">
+            <SiPython size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
       <div className="project-wrapper">
@@ -123,6 +150,12 @@ export function Projects() {
             framework for this project.
           </p>
           <br></br>
+          <div className="content-right">
+            <SiHtml5 size={30} className="icon-projects" />
+            <SiCsswizardry size={30} className="icon-projects" />
+            <SiPhp size={30} className="icon-projects" />
+            <SiJavascript size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
     </>
@@ -148,6 +181,12 @@ export function Projects() {
             , <mark>Express</mark>, <mark>React</mark> & <mark>Node</mark>).
           </p>
           <br></br>
+          <div className="content-right">
+            <SiHtml5 size={30} className="icon-projects" />
+            <SiCsswizardry size={30} className="icon-projects" />
+            <SiMongodb size={30} className="icon-projects" />
+            <SiJavascript size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
 
@@ -174,6 +213,10 @@ export function Projects() {
             edifício. Este projeto foi desenvolvido com <mark>Java</mark> e as
             bibliotecas Jade e Repast.
           </p>
+          <br></br>
+          <div className="content-right">
+            <SiJava size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
       <div className="project-wrapper">
@@ -196,6 +239,12 @@ export function Projects() {
             de uma maneira user-friendly. Utilizamos <mark>TypeScript</mark> e{" "}
             <mark>React</mark> para o seu desenvolvimento.
           </p>
+          <br></br>
+          <div className="content-right">
+            <SiHtml5 size={30} className="icon-projects" />
+            <SiCsswizardry size={30} className="icon-projects" />
+            <SiTypescript size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
       <div className="project-wrapper">
@@ -219,6 +268,10 @@ export function Projects() {
             mover-se e empurrar caixas e blocos de gelo. Este projeto foi feito
             com <mark>Python</mark>.
           </p>
+          <br></br>
+          <div className="content-right">
+            <SiPython size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
       <div className="project-wrapper">
@@ -236,6 +289,13 @@ export function Projects() {
             fazer perguntas e receber respostas pertinentes. Utilizamos a
             framework <mark>Laravel</mark> para este projeto.
           </p>
+          <br></br>
+          <div className="content-right">
+            <SiHtml5 size={30} className="icon-projects" />
+            <SiCsswizardry size={30} className="icon-projects" />
+            <SiPhp size={30} className="icon-projects" />
+            <SiJavascript size={30} className="icon-projects" />
+          </div>
         </div>
       </div>
     </>

@@ -103,6 +103,11 @@ div.content-right-icon {
   margin-left: 0.5em;
 }
 
+.icon-projects {
+  padding-right: 0.5em;
+  color: var(--color-one);
+}
+
 /* ---------- Desktop ---------- */
 
 @media screen and (min-width: 1120px) {
