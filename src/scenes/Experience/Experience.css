@@ -9,6 +9,12 @@
     width: 100%;
     height: 150px;
   }
+
+  .experience-wrapper{
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 }
 
 .project-wrapper {

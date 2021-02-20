@@ -13,13 +13,15 @@ class Experience extends React.Component {
   render() {
     return (
       <>
-        <div className="info">
-          <WorkExperience />
-        </div>
-        <div className="projects-wrapper">
-          <Projects />
-        </div>
+        <div className="experience-wrapper">
+          <div className="info">
+            <WorkExperience />
+          </div>
+          <div className="projects-wrapper">
+            <Projects />
+          </div>
           <Disclaimer />
+        </div>
         <br></br>
       </>
     );

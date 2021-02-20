@@ -3,5 +3,7 @@
     margin-top: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }

@@ -15,7 +15,7 @@ export function ProfileComponent() {
     <>
       <div className="info">
         <div className="picture">
-          <img className="rounded" src="/me.jpg" alt="This is myself."></img>
+          <img className="rounded" src="https://i.imgur.com/t8yHQyL.jpeg" alt="This is myself."></img>
         </div>
         <div className="profile-info">
           <div className="name">
@@ -65,7 +65,7 @@ export function ProfileComponent() {
     <>
       <div className="info">
         <div className="picture">
-          <img className="rounded" src="/me.jpg" alt="This is myself."></img>
+          <img className="rounded" src="https://i.imgur.com/t8yHQyL.jpeg" alt="This is myself."></img>
         </div>
         <div className="profile-info">
           <div className="name">
