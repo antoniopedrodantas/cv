@@ -1,12 +1,10 @@
 .info {
-  background-color: var(--color-card);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 1em;
-  padding: 1em;
   padding-left: 1em;
   border-radius: 4px;
+  overflow-y: scroll;
 }
 
 /* ---------- Identation ---------- */

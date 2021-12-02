@@ -1,0 +1,44 @@
+.landing-page-header {
+  border-right: solid var(--color-one);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-element {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: var(--color-one);
+  cursor: pointer;
+}
+
+.header-element:hover {
+  background-color: var(--color-card);
+}
+
+.header-element-top {
+  border-radius: 50px 0 0 0;
+}
+
+.header-element-bottom {
+  border-radius: 0 0 0 50px;
+}
+
+img {
+  height: 100px;
+}
+
+.picture {
+  align-self: center;
+}
+
+.rounded {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 4px;
+}
