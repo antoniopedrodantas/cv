@@ -70,30 +70,41 @@ img {
 }
 
 .language-button {
-  background: linear-gradient(
-    30deg,
-    var(--color-one) 30%,
-    var(--color-gradient) 100%
-  );
-  color: var(--color-card);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  margin: 1em;
-  border-radius: 4px;
-  cursor: pointer;
+  font-size: 50px;
 }
 
-.language-button:hover {
-  background: linear-gradient(
-    30deg,
-    var(--color-gradient) 30%,
-    var(--color-one) 100%
-  );
-  color: var(--color-card);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  margin: 1em;
+.popper-boi {
+  background: var(--color-card);
+  position: absolute;
+  width: 100px;
+  height: 50px;
   border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s ease-out;
+  left: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 64ms;
+  color: white;
+  z-index: 1;
+}
+
+.popper-text{
+    z-index: 1;
+}
+
+.popper-boi::before{
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 25%;
+    background-color: var(--color-card);
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    z-index: 0;
+}
+
+.header-element:hover .popper-boi {
+  opacity: 1;
 }

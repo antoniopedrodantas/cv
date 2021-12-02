@@ -16,6 +16,7 @@ import Skills from "../../components/Skills/Skills";
 import Experience from "../Experience/Experience";
 
 import Music from "../../components/Music/Music";
+import OtherInterests from "../../components/OtherInterests/OtherInterests";
 
 export function LandingPage() {
   // language state
@@ -37,14 +38,14 @@ export function LandingPage() {
 
   const renderLanguageButton = () => {
     return language === "PT" ? (
-      <span className="language-button" role="img" onClick={handleLanguage}>
+      <span className="language-button" role="img">
         {" "}
-        🇵🇹 {language}{" "}
+        🇵🇹{" "}
       </span>
     ) : (
-      <span className="language-button" role="img" onClick={handleLanguage}>
+      <span className="language-button" role="img">
         {" "}
-        🇬🇧 {language}{" "}
+        🇬🇧{" "}
       </span>
     );
   };
@@ -80,6 +81,7 @@ export function LandingPage() {
         return (
           <>
             <Music />
+            <OtherInterests />
           </>
         );
       default:
@@ -106,30 +108,45 @@ export function LandingPage() {
                 alt="This is myself."
               ></img>
             </div>
+            <div className="popper-boi">
+              <h4 className="popper-text">Home</h4>
+            </div>
           </li>
           <li
             className="header-element"
             onClick={() => setRenderPageAux("education")}
           >
             <ImBooks size={50} />
+            <div className="popper-boi">
+              <h4 className="popper-text">Education</h4>
+            </div>
           </li>
           <li
             className="header-element"
             onClick={() => setRenderPageAux("experience")}
           >
             <ImBriefcase size={50} />
+            <div className="popper-boi">
+              <h4 className="popper-text">Experience</h4>
+            </div>
           </li>
           <li
             className="header-element"
             onClick={() => setRenderPageAux("interests")}
           >
             <ImHeart size={50} />
+            <div className="popper-boi">
+              <h4 className="popper-text">Interests</h4>
+            </div>
           </li>
           <li
             className="header-element header-element-bottom"
-            onClick={() => handleLanguage}
+            onClick={() => handleLanguage()}
           >
             {renderLanguageButton()}
+            <div className="popper-boi">
+              <h4 className="popper-text">Language</h4>
+            </div>
           </li>
         </div>
         <div className="landing-page-section">{renderComponent()}</div>
