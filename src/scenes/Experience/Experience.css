@@ -25,6 +25,7 @@
   transition: 0.3s;
   max-height: 350px;
   overflow: hidden;
+  border: solid 1px var(--color-one);
 }
 
 .project-wrapper:hover {

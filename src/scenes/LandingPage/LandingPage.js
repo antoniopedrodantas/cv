@@ -116,7 +116,7 @@ export function LandingPage() {
             className="header-element"
             onClick={() => setRenderPageAux("education")}
           >
-            <ImBooks size={50} />
+            <ImBooks size={45} />
             <div className="popper-boi">
               <h4 className="popper-text">Education</h4>
             </div>
@@ -125,7 +125,7 @@ export function LandingPage() {
             className="header-element"
             onClick={() => setRenderPageAux("experience")}
           >
-            <ImBriefcase size={50} />
+            <ImBriefcase size={45} />
             <div className="popper-boi">
               <h4 className="popper-text">Experience</h4>
             </div>
@@ -134,13 +134,13 @@ export function LandingPage() {
             className="header-element"
             onClick={() => setRenderPageAux("interests")}
           >
-            <ImHeart size={50} />
+            <ImHeart size={45} />
             <div className="popper-boi">
               <h4 className="popper-text">Interests</h4>
             </div>
           </li>
           <li
-            className="header-element header-element-bottom"
+            className="header-element header-element-bottom header-element-special"
             onClick={() => handleLanguage()}
           >
             {renderLanguageButton()}

@@ -35,6 +35,11 @@ export function Formation() {
             Engineering @ FEUP.
           </p>
           <br></br>
+          <p>
+            <mark>[2021-2022] </mark> Erasmus @ Faculte Polytechnique de
+            Mons, Belgium.
+          </p>
+          <br></br>
         </div>
       </div>
     </>
@@ -65,6 +70,11 @@ export function Formation() {
           <p>
             <mark>[2020-2022] </mark> Mestrado em Engenharia Informática e
             Computação @ FEUP.
+          </p>
+          <br></br>
+          <p>
+            <mark>[2021-2022] </mark> Erasmus na Faculte Polytechnique de Mons,
+            Bélgica.
           </p>
           <br></br>
         </div>

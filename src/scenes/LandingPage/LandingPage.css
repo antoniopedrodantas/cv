@@ -38,6 +38,10 @@
   border-radius: 0 0 0 50px;
 }
 
+.header-element-special {
+  border-top: solid var(--color-one);
+}
+
 img {
   height: 100px;
 }
@@ -107,4 +111,9 @@ img {
 
 .header-element:hover .popper-boi {
   opacity: 1;
+}
+
+.spotify-wrapper {
+  display:flex;
+  align-items: flex-end;
 }
