@@ -18,7 +18,7 @@
 }
 
 .header-element:hover {
-  background-color: var(--color-card);
+  background-color: var(--color-separator);
 }
 
 .header-element-top {

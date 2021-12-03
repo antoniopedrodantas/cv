@@ -27,10 +27,13 @@ export function InfoComponent() {
             <h1 className="card-title">Let me introduce myself...</h1>
             <div className="card-info">
               {" "}
-              Hello! My name is António Pedro Dantas, I'm 21 years old and I'm
+              Hello! My name is António Pedro Dantas, I'm 22 years old and I'm
               taking my masters degree in Informatics and Computing Engineering
-              at FEUP (Faculdade de Engenharia da Universidade do Porto). I'm in
-              love with music, cinema, comedy, art and travelling.{" "}
+              at FEUP (Faculdade de Engenharia da Universidade do Porto). My
+              master's thesis is about infering user preferences in social
+              networking platforms using Reverse Reinforcement Learning. My main
+              fields of interest are Web Development, Artificial Intelligence
+              and Information Systems, but I'm always up for a challenge.{" "}
               <div className="idented">
                 <p className="idented-paragraph">
                   {" "}
@@ -89,10 +92,13 @@ export function InfoComponent() {
             <h1 className="card-title">Permitam-me que me apresente...</h1>
             <div className="card-info">
               {" "}
-              Olá! O meu nome é António Pedro Dantas, tenho 21 anos e estou no
+              Olá! O meu nome é António Pedro Dantas, tenho 22 anos e estou no
               mestrado de Engenharia Informática e Computação na FEUP (Faculdade
-              de Engenharia da Universidade do Porto). Sou apaixonado por
-              música, cinema, comédia, arte e viajar.{" "}
+              de Engenharia da Universidade do Porto). A minha tese de mestrado
+              é sobre inferência de preferências de utilzador em redes sociais
+              utilizando Aprendizagem por Reforço Inverso. As minhas áreas de
+              eleição são Desenvolvimento Web, Inteligência Artificial e
+              sistemas de Informação, mas estou sempre pronto para um desafio.{" "}
               <div className="idented">
                 <p className="idented-paragraph">
                   {" "}
@@ -121,7 +127,7 @@ export function InfoComponent() {
                 <div className="what-i-do-icon">
                   <AiOutlinePieChart size={45} />
                 </div>
-                <p className="what-i-do-text">Sistemas de Informações</p>
+                <p className="what-i-do-text">Sistemas de Informação</p>
               </div>
               <div className="what-i-do-elem">
                 <div className="what-i-do-icon">

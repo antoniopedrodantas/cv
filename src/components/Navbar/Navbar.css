@@ -67,7 +67,7 @@
     var(--color-gradient) 30%,
     var(--color-one) 100%
   );
-  color: var(--color-card);
+  color: var(--color-separator);
   text-decoration: none;
   padding: 0.5rem 1rem;
   margin: 1em;

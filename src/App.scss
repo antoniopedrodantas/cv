@@ -6,16 +6,18 @@
 
 html,
 body {
-  /* background-color: rgb(12, 14, 18); */
-  background-color: rgb(18, 21, 25);
-  /* --color-card: rgb(18, 21, 25); */
-  --color-card: #464e59;
+  background-color: rgb(12, 14, 18);
+  // background-color: rgb(18, 21, 25);
+  --color-card: rgb(18, 21, 25);
+  // --color-card: #464e59;
   /* --color-one: #5cdb95; */
   /* --color-two: #379863; */
   --color-one: #64d0d1;
   --color-two: #3e9596;
   --color-gradient: #5cdb95;
   --color-separator: #464e59;
+
+  overflow: hidden;
 }
 
 .content-right {
@@ -56,7 +58,7 @@ $blue: #64d0d1;
   transform-style: preserve-3d;
 }
 
-$total: 10;
+$total: 25;
 @for $i from 1 through $total {
   $scale:random(2) - .4;
   
