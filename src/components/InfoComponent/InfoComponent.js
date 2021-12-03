@@ -1,5 +1,5 @@
 // Dependencies
-import React, { useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import { FaMapMarkerAlt, FaMailBulk } from "react-icons/fa";
 import {
@@ -15,9 +15,133 @@ import "./InfoComponent.css";
 // Components
 import Skills from "../Skills/Skills";
 
+function getWindowDimensions() {
+  const { innerWidth: width } = window;
+  return width;
+}
+
 export function InfoComponent() {
   // language displayed
   const { language } = useContext(LanguageContext);
+
+  const [windowDimensions, setWindowDimensions] = useState(
+    getWindowDimensions()
+  );
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const renderWhatIDo = () => {
+    if (windowDimensions > 1200) {
+      return language === "EN" ? (
+        <>
+          <h1 className="card-title">What I Do</h1>
+          <div className="what-i-do-grid">
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlineLineChart size={45} />
+              </div>
+              <p className="what-i-do-text">Artificiall Intelligence</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlinePieChart size={45} />
+              </div>
+              <p className="what-i-do-text">Information Systems</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <HiOutlineDesktopComputer size={45} />
+              </div>
+              <p className="what-i-do-text">Web Applications</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlineFlag size={45} />
+              </div>
+              <p className="what-i-do-text">Management</p>
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <h1 className="card-title">O Que Faço</h1>
+          <div className="what-i-do-grid">
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlineLineChart size={45} />
+              </div>
+              <p className="what-i-do-text">Inteligência Artificial</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlinePieChart size={45} />
+              </div>
+              <p className="what-i-do-text">Sistemas de Informação</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <HiOutlineDesktopComputer size={45} />
+              </div>
+              <p className="what-i-do-text">Aplicações Web</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlineFlag size={45} />
+              </div>
+              <p className="what-i-do-text">Gestão</p>
+            </div>
+          </div>
+        </>
+      );
+    } else if (windowDimensions > 770) {
+      return language === "EN" ? (
+        <>
+          <h1 className="card-title">What I Do</h1>
+          <div className="what-i-do-grid">
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlineLineChart size={45} />
+              </div>
+              <p className="what-i-do-text">A. I.</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <HiOutlineDesktopComputer size={45} />
+              </div>
+              <p className="what-i-do-text">Web Apps</p>
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <h1 className="card-title">O Que Faço</h1>
+          <div className="what-i-do-grid">
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <AiOutlineLineChart size={45} />
+              </div>
+              <p className="what-i-do-text">A. I.</p>
+            </div>
+            <div className="what-i-do-elem">
+              <div className="what-i-do-icon">
+                <HiOutlineDesktopComputer size={45} />
+              </div>
+              <p className="what-i-do-text">Web Apps</p>
+            </div>
+          </div>
+        </>
+      );
+    } else {
+      return <></>;
+    }
+  };
 
   return language === "EN" ? (
     <>
@@ -50,33 +174,7 @@ export function InfoComponent() {
               accomplishments. Let's dive in!{" "}
             </div>
             <br></br>
-            <h1 className="card-title">What I Do</h1>
-            <div className="what-i-do-grid">
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlineLineChart size={45} />
-                </div>
-                <p className="what-i-do-text">Artificiall Intelligence</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlinePieChart size={45} />
-                </div>
-                <p className="what-i-do-text">Information Systems</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <HiOutlineDesktopComputer size={45} />
-                </div>
-                <p className="what-i-do-text">Web Applications</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlineFlag size={45} />
-                </div>
-                <p className="what-i-do-text">Management</p>
-              </div>
-            </div>
+            {renderWhatIDo()}
           </div>
           <div>
             <Skills />
@@ -115,33 +213,7 @@ export function InfoComponent() {
               conquistas pessoais. Vamos a isso!{" "}
             </div>
             <br></br>
-            <h1 className="card-title">O Que Faço</h1>
-            <div className="what-i-do-grid">
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlineLineChart size={45} />
-                </div>
-                <p className="what-i-do-text">Inteligência Artificial</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlinePieChart size={45} />
-                </div>
-                <p className="what-i-do-text">Sistemas de Informação</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <HiOutlineDesktopComputer size={45} />
-                </div>
-                <p className="what-i-do-text">Aplicações Web</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlineFlag size={45} />
-                </div>
-                <p className="what-i-do-text">Gestão</p>
-              </div>
-            </div>
+            {renderWhatIDo()}
           </div>
           <div>
             <Skills />

@@ -118,3 +118,42 @@ img {
   display: flex;
   align-items: flex-end;
 }
+
+/* ========== Tablet ========== */
+
+/* between 1000 and 1200 */
+@media (min-width: 1040px) and (max-width: 1200px) {
+  img {
+    height: 50px;
+  }
+}
+
+/* between 700 and 1000 */
+@media (min-width: 500px) and (max-width: 1040px) {
+  img {
+    height: 250px;
+  }
+}
+
+/* between 700 and 1000 */
+@media (min-width: 0px) and (max-width: 500px) {
+  img {
+    height: 100px;
+  }
+}
+
+
+.mobile-page-container {
+  background-color: var(--color-card);
+  height: 85vh;
+  text-align: center;
+  border: solid var(--color-one);
+  border-radius: 50px;
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 2fr 6fr 2fr;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
