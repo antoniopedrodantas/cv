@@ -2,6 +2,13 @@
 import React, { useState, useContext, useEffect } from "react";
 import { ImHeart, ImBooks, ImBriefcase } from "react-icons/im";
 import { LanguageContext } from "../../context/LanguageContext";
+import {
+  AiOutlineLineChart,
+  AiOutlinePieChart,
+  AiOutlineFlag,
+} from "react-icons/ai";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 // Styling
 import "./LandingPage.css";
@@ -18,6 +25,8 @@ import Experience from "../Experience/Experience";
 import Music from "../../components/Music/Music";
 import OtherInterests from "../../components/OtherInterests/OtherInterests";
 
+import Footer from "../../components/Footer/Footer";
+
 function getWindowDimensions() {
   const { innerWidth: width } = window;
   return width;
@@ -26,6 +35,14 @@ function getWindowDimensions() {
 export function LandingPage() {
   // language state
   const { language, setLanguage } = useContext(LanguageContext);
+
+  // clicked state
+  const [clicked, setClicked] = useState(false);
+
+  // handles click from hamburguer menu
+  const handleClick = () => {
+    setClicked(!clicked);
+  };
 
   const [renderPage, setRenderPage] = useState("home");
   const [windowDimensions, setWindowDimensions] = useState(
@@ -249,15 +266,64 @@ export function LandingPage() {
             ></img>
           </div>
           <div>
-            Hello! My name is António Pedro Dantas, I'm 22 years old and I'm
-            taking my masters degree in Informatics and Computing Engineering at
-            FEUP (Faculdade de Engenharia da Universidade do Porto). My master's
-            thesis is about infering user preferences in social networking
-            platforms using Reverse Reinforcement Learning. My main fields of
-            interest are Web Development, Artificial Intelligence and
-            Information Systems, but I'm always up for a challenge.
+            <div>
+              Hello! My name is António Pedro Dantas, I'm 22 years old and I'm
+              taking my masters degree in Informatics and Computing Engineering
+              @ FEUP.
+            </div>
+            <div className="what-i-do-grid-mobile">
+              <div className="what-i-do-elem">
+                <div className="what-i-do-icon">
+                  <AiOutlineLineChart size={30} />
+                </div>
+                <p className="what-i-do-text-mobile">A. I.</p>
+              </div>
+              <div className="what-i-do-elem">
+                <div className="what-i-do-icon">
+                  <AiOutlinePieChart size={30} />
+                </div>
+                <p className="what-i-do-text-mobile">I. S.</p>
+              </div>
+              <div className="what-i-do-elem">
+                <div className="what-i-do-icon">
+                  <HiOutlineDesktopComputer size={30} />
+                </div>
+                <p className="what-i-do-text-mobile">Web Apps</p>
+              </div>
+              <div className="what-i-do-elem">
+                <div className="what-i-do-icon">
+                  <AiOutlineFlag size={30} />
+                </div>
+                <p className="what-i-do-text-mobile">Management</p>
+              </div>
+            </div>
           </div>
-          <div>pedro.dantascv@gmail.com</div>
+          <div>
+            <Footer />
+          </div>
+        </div>
+        <div
+          className={
+            clicked ? "hamburguer-menu-mobile active" : "hamburguer-menu-mobile"
+          }
+          onClick={handleClick}
+        >
+          {clicked ? <FaTimes /> : <FaBars />}
+        </div>
+        <div
+          className={
+            clicked ? "mobile-opened-menu active" : "mobile-opened-menu"
+          }
+        >
+          <div>
+            <p>Skills</p>
+          </div>
+          <div>
+            <p>Skills</p>
+          </div>
+          <div>
+            <p>Skills</p>
+          </div>
         </div>
       </>
     );

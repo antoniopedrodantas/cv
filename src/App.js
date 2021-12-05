@@ -50,7 +50,7 @@ function App() {
             <Route exact path="/">
               <>
                 <LandingPage />
-                {renderBackground()}
+                {/* {renderBackground()} */}
               </>
             </Route>
           </Switch>

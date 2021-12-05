@@ -1,7 +1,5 @@
 .footer-separator {
   margin-top: 4em;
-  margin-left: 4em;
-  margin-right: 4em;
   padding: 1em;
   border-top: solid 1px var(--color-separator);
 }
