@@ -174,7 +174,7 @@ export function Projects() {
             <mark>Desenvolvimento de Software</mark>. O objetivo era criar uma
             plataforma que detivesse <mark>registos médicos</mark> de todos os
             tipos de profissionais de aviação. Os pilotos poderiam entrar para
-            ver se estão aptos para o voar. Os médicos poderiam fazer upload de
+            ver se estão aptos para voar. Os médicos poderiam fazer upload de
             todos os tipos de exames e as grandes entidades poderiam pesquisar e
             acompanhar todos os seus profissionais. Utilizamos a{" "}
             <mark>MERN</mark> stack para o desenvolvimento (<mark>MongoDB</mark>
@@ -205,7 +205,7 @@ export function Projects() {
           <p>
             {" "}
             Na cadeira de <mark>Sistemas Distribuidos</mark> desenvolvemos um
-            software capaz de <mark>simular um ambiente de arranha-céus</mark>
+            software capaz de <mark>simular um ambiente de arranha-céus </mark>
             que continha vários elevadores. A ideia é introduzir um conjunto de
             variáveis independentes (ex: número de andares, número de
             elevadores, peso máximo de cada elevador) e analizar a informação

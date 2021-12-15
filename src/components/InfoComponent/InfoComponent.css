@@ -1,12 +1,10 @@
 .info {
-  background-color: var(--color-card);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 1em;
-  padding: 1em;
   padding-left: 1em;
   border-radius: 4px;
+  overflow-y: scroll;
 }
 
 /* ---------- Identation ---------- */
@@ -22,4 +20,41 @@
   margin-top: 1em;
   display: flex;
   align-items: center;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-picture {
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+
+.info-rounded {
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 4px;
+}
+
+.what-i-do-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.what-i-do-elem {
+  margin: 1rem;
+}
+
+.what-i-do-icon {
+  color: var(--color-one);
+}
+
+.what-i-do-text {
+  position: relative;
+  left: 65px;
+  bottom: 33px;
 }

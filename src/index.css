@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 4rem;
+  border-radius: 50px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
+}
+
+/* between 0 and 500 */
+@media (min-width: 0px) and (max-width: 500px) {
+  body {
+    margin: 2rem;
+  }
 }

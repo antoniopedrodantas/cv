@@ -23,7 +23,7 @@
 }
 
 .skill-css {
-  width: 100%;
+  width: 75%;
   border: 1px solid var(--color-one);
   border-radius: 5px;
 }
@@ -35,7 +35,7 @@
 }
 
 .skill-javascript {
-  width: 75%;
+  width: 100%;
   border: 1px solid var(--color-one);
   border-radius: 5px;
 }
@@ -47,7 +47,7 @@
 }
 
 .skill-python {
-  width: 50%;
+  width: 75%;
   border: 1px solid var(--color-one);
   border-radius: 5px;
 }
@@ -59,7 +59,7 @@
 }
 
 .skill-cpp {
-  width: 75%;
+  width: 50%;
   border: 1px solid var(--color-one);
   border-radius: 5px;
 }
@@ -71,7 +71,7 @@
 }
 
 .skill-java {
-  width: 100%;
+  width: 75%;
   border: 1px solid var(--color-one);
   border-radius: 5px;
 }
