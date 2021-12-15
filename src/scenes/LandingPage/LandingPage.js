@@ -45,6 +45,8 @@ export function LandingPage() {
   };
 
   const [renderPage, setRenderPage] = useState("home");
+  const [renderMobilePageComponent, setRenderMobilePageComponent] =
+    useState("home");
   const [windowDimensions, setWindowDimensions] = useState(
     getWindowDimensions()
   );
@@ -151,7 +153,7 @@ export function LandingPage() {
               className="header-element"
               onClick={() => setRenderPageAux("education")}
             >
-              <ImBooks size={45} />
+              <ImBooks size={32} />
               <div className="popper-boi">
                 <h4 className="popper-text">Education</h4>
               </div>
@@ -160,7 +162,7 @@ export function LandingPage() {
               className="header-element"
               onClick={() => setRenderPageAux("experience")}
             >
-              <ImBriefcase size={45} />
+              <ImBriefcase size={32} />
               <div className="popper-boi">
                 <h4 className="popper-text">Experience</h4>
               </div>
@@ -169,7 +171,7 @@ export function LandingPage() {
               className="header-element"
               onClick={() => setRenderPageAux("interests")}
             >
-              <ImHeart size={45} />
+              <ImHeart size={32} />
               <div className="popper-boi">
                 <h4 className="popper-text">Interests</h4>
               </div>
@@ -253,55 +255,138 @@ export function LandingPage() {
     );
   };
 
+  // renders mobile components
+  const renderMobileComponent = () => {
+    switch (renderMobilePageComponent) {
+      case "home":
+        return (
+          <>
+            <div className="mobile-page-container">
+              <div className="picture">
+                <img
+                  className="rounded"
+                  src="https://i.imgur.com/t8yHQyL.jpeg"
+                  alt="This is myself."
+                ></img>
+              </div>
+              <div>
+                <div>
+                  Hello! My name is António Pedro Dantas, I'm 22 years old and
+                  I'm taking my masters degree in Informatics and Computing
+                  Engineering @ FEUP.
+                </div>
+                <div className="what-i-do-grid-mobile">
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <AiOutlineLineChart size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">A. I.</p>
+                  </div>
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <AiOutlinePieChart size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">I. S.</p>
+                  </div>
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <HiOutlineDesktopComputer size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">Web Apps</p>
+                  </div>
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <AiOutlineFlag size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">Management</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <Footer />
+              </div>
+            </div>
+          </>
+        );
+      case "education":
+        return (
+          <>
+            <div className="mobile-page-container-other">
+              <Formation />
+            </div>
+          </>
+        );
+      case "skills":
+        return (
+          <>
+            <div className="mobile-page-container-other">
+              <Skills />
+            </div>
+          </>
+        );
+      default:
+        return (
+          <>
+            <div className="mobile-page-container">
+              <div className="picture">
+                <img
+                  className="rounded"
+                  src="https://i.imgur.com/t8yHQyL.jpeg"
+                  alt="This is myself."
+                ></img>
+              </div>
+              <div>
+                <div>
+                  Hello! My name is António Pedro Dantas, I'm 22 years old and
+                  I'm taking my masters degree in Informatics and Computing
+                  Engineering @ FEUP.
+                </div>
+                <div className="what-i-do-grid-mobile">
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <AiOutlineLineChart size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">A. I.</p>
+                  </div>
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <AiOutlinePieChart size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">I. S.</p>
+                  </div>
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <HiOutlineDesktopComputer size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">Web Apps</p>
+                  </div>
+                  <div className="what-i-do-elem">
+                    <div className="what-i-do-icon">
+                      <AiOutlineFlag size={30} />
+                    </div>
+                    <p className="what-i-do-text-mobile">Management</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <Footer />
+              </div>
+            </div>
+          </>
+        );
+    }
+  };
+
+  const chooseMobileOption = (option) => {
+    setRenderMobilePageComponent(option);
+    handleClick();
+  };
+
   // renders mobile page
   const renderMobilePage = () => {
     return (
       <>
-        <div className="mobile-page-container">
-          <div className="picture">
-            <img
-              className="rounded"
-              src="https://i.imgur.com/t8yHQyL.jpeg"
-              alt="This is myself."
-            ></img>
-          </div>
-          <div>
-            <div>
-              Hello! My name is António Pedro Dantas, I'm 22 years old and I'm
-              taking my masters degree in Informatics and Computing Engineering
-              @ FEUP.
-            </div>
-            <div className="what-i-do-grid-mobile">
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlineLineChart size={30} />
-                </div>
-                <p className="what-i-do-text-mobile">A. I.</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlinePieChart size={30} />
-                </div>
-                <p className="what-i-do-text-mobile">I. S.</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <HiOutlineDesktopComputer size={30} />
-                </div>
-                <p className="what-i-do-text-mobile">Web Apps</p>
-              </div>
-              <div className="what-i-do-elem">
-                <div className="what-i-do-icon">
-                  <AiOutlineFlag size={30} />
-                </div>
-                <p className="what-i-do-text-mobile">Management</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <Footer />
-          </div>
-        </div>
+        {renderMobileComponent()}
         <div
           className={
             clicked ? "hamburguer-menu-mobile active" : "hamburguer-menu-mobile"
@@ -315,13 +400,22 @@ export function LandingPage() {
             clicked ? "mobile-opened-menu active" : "mobile-opened-menu"
           }
         >
-          <div>
-            <p>Skills</p>
+          <div
+            className="mobile-menu-option"
+            onClick={() => chooseMobileOption("home")}
+          >
+            <p>António Pedro Dantas</p>
           </div>
-          <div>
-            <p>Skills</p>
+          <div
+            className="mobile-menu-option"
+            onClick={() => chooseMobileOption("education")}
+          >
+            <p>Education</p>
           </div>
-          <div>
+          <div
+            className="mobile-menu-option"
+            onClick={() => chooseMobileOption("skills")}
+          >
             <p>Skills</p>
           </div>
         </div>
