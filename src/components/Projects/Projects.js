@@ -2,14 +2,12 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import {
-  SiJavascript,
-  SiPhp,
-  SiHtml5,
-  SiCsswizardry,
   SiPython,
   SiJava,
   SiTypescript,
   SiMongodb,
+  SiReact,
+  SiLaravel,
 } from "react-icons/si";
 
 // Styling
@@ -21,6 +19,63 @@ export function Projects() {
 
   return language === "EN" ? (
     <>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
+          <div className="img-wrapper-musician-buddy"></div>
+        </div>
+        <div className="info-wrapper">
+          <a
+            className="project-title"
+            href="https://musician-buddy.netlify.app/"
+          >
+            <h3 className="project-title"> Musician Buddy</h3>
+          </a>
+          <br></br>
+          <p>
+            <mark>Musician Buddy</mark> was a side project that I've created.
+            The idea for this came up when I struggled to find a way to tell in
+            which BPMs I was in when tapping into a beat. Soon I discovered that
+            I could make those calculations with maths and the help of
+            programming. I decided to put this into a web application since it
+            is easier to access and to have a better UX/UI experience. The
+            project is ever changing and now has also the possibility to play a
+            note in order for you to tune your instruments accordingly. It was
+            developed using the <mark>React</mark> library.
+          </p>
+          <br></br>
+          <div className="content-right">
+            <SiReact size={30} className="icon-projects" />
+          </div>
+        </div>
+      </div>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
+          <div className="img-wrapper-aml"></div>
+        </div>
+        <div className="info-wrapper">
+          <a
+            className="project-title"
+            href="https://github.com/antoniopedrodantas/aml-umons"
+          >
+            <h3 className="project-title"> Stock Market Analysis</h3>
+          </a>
+          <br></br>
+          <p>
+            For the <mark>Advanced Machine Learning</mark> course, we had to
+            implement the Exp3 algorithm to analyse and predict stock market
+            activity in order to choose the best company to invest in. The goal
+            was to extract data from 6 of the top 500 companies listed on the
+            public stock market to serve as data for our A.I. algorithm. This
+            project was developed during my Erasmus exchanege program at the
+            University of Mons. <mark>Python</mark> was the chosen programming
+            language.
+          </p>
+          <br></br>
+          <div className="content-right">
+            <SiPython size={30} className="icon-projects" />
+          </div>
+        </div>
+      </div>
       <div className="project-wrapper">
         <div className="img-wrapper">
           <div className="img-wrapper-meddigital"></div>
@@ -43,10 +98,8 @@ export function Projects() {
           </p>
           <br></br>
           <div className="content-right">
-            <SiHtml5 size={30} className="icon-projects" />
-            <SiCsswizardry size={30} className="icon-projects" />
             <SiMongodb size={30} className="icon-projects" />
-            <SiJavascript size={30} className="icon-projects" />
+            <SiReact size={30} className="icon-projects" />
           </div>
         </div>
       </div>
@@ -102,8 +155,7 @@ export function Projects() {
           </p>
           <br></br>
           <div className="content-right">
-            <SiHtml5 size={30} className="icon-projects" />
-            <SiCsswizardry size={30} className="icon-projects" />
+            <SiReact size={30} className="icon-projects" />
             <SiTypescript size={30} className="icon-projects" />
           </div>
         </div>
@@ -151,16 +203,71 @@ export function Projects() {
           </p>
           <br></br>
           <div className="content-right">
-            <SiHtml5 size={30} className="icon-projects" />
-            <SiCsswizardry size={30} className="icon-projects" />
-            <SiPhp size={30} className="icon-projects" />
-            <SiJavascript size={30} className="icon-projects" />
+            <SiLaravel size={30} className="icon-projects" />
           </div>
         </div>
       </div>
     </>
   ) : (
     <>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
+          <div className="img-wrapper-musician-buddy"></div>
+        </div>
+        <div className="info-wrapper">
+          <a
+            className="project-title"
+            href="https://musician-buddy.netlify.app/"
+          >
+            <h3 className="project-title"> Musician Buddy</h3>
+          </a>
+          <br></br>
+          <p>
+            O <mark>Musician Buddy</mark> é um projeto paralelo que eu criei. A
+            ideia para isto surgiu quando eu não conseguia encontrar uma maneira
+            de contar em quais BPMs estava ao tocar num certo tempo. Aí,
+            apercebi-me que poderia fazer esses cálculos com matemática e a
+            ajuda de programação. Eu decidi desenvolver uma aplicação web,
+            já que é mais fácil de ter acesso e ter uma melhor experiência de
+            UX/UI. O projeto está sempre a evoluir e agora tem também a
+            possibilidade de tocar uma nota para que o utilizador possa afinar
+            os seus instrumentos. Foi desenvolvido usando a biblioteca{" "}
+            <mark>React</mark>.
+          </p>
+          <br></br>
+          <div className="content-right">
+            <SiReact size={30} className="icon-projects" />
+          </div>
+        </div>
+      </div>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
+          <div className="img-wrapper-aml"></div>
+        </div>
+        <div className="info-wrapper">
+          <a
+            className="project-title"
+            href="https://github.com/antoniopedrodantas/aml-umons"
+          >
+            <h3 className="project-title"> Stock Market Analysis</h3>
+          </a>
+          <br></br>
+          <p>
+            Para o curso de <mark>Advanced Machine Learning</mark>, tivemos que
+            implementar o algoritmo Exp3 para analisar e prever o mercado de
+            ações para escolher a melhor empresa para se investir. O objetivo
+            foi extrair dados de 6 das 500 maiores empresas listadas no mercado
+            de ações público para servir como dados para o nosso A.I. Este
+            projeto foi desenvolvido durante o meu programa de Erasmus na
+            Universidade de Mons. <mark>Python</mark> foi a linguagem de
+            programação escolhida.
+          </p>
+          <br></br>
+          <div className="content-right">
+            <SiPython size={30} className="icon-projects" />
+          </div>
+        </div>
+      </div>
       <div className="project-wrapper">
         <div className="img-wrapper">
           <div className="img-wrapper-meddigital"></div>
@@ -182,10 +289,8 @@ export function Projects() {
           </p>
           <br></br>
           <div className="content-right">
-            <SiHtml5 size={30} className="icon-projects" />
-            <SiCsswizardry size={30} className="icon-projects" />
             <SiMongodb size={30} className="icon-projects" />
-            <SiJavascript size={30} className="icon-projects" />
+            <SiReact size={30} className="icon-projects" />
           </div>
         </div>
       </div>
@@ -241,8 +346,7 @@ export function Projects() {
           </p>
           <br></br>
           <div className="content-right">
-            <SiHtml5 size={30} className="icon-projects" />
-            <SiCsswizardry size={30} className="icon-projects" />
+            <SiReact size={30} className="icon-projects" />
             <SiTypescript size={30} className="icon-projects" />
           </div>
         </div>
@@ -291,10 +395,7 @@ export function Projects() {
           </p>
           <br></br>
           <div className="content-right">
-            <SiHtml5 size={30} className="icon-projects" />
-            <SiCsswizardry size={30} className="icon-projects" />
-            <SiPhp size={30} className="icon-projects" />
-            <SiJavascript size={30} className="icon-projects" />
+            <SiLaravel size={30} className="icon-projects" />
           </div>
         </div>
       </div>

@@ -165,7 +165,7 @@ export function InfoComponent() {
                 </p>
                 <p className="idented-paragraph">
                   {" "}
-                  <FaMailBulk className="icon-text" /> pedro.dantascv@gmail.com
+                  <FaMailBulk className="icon-text" /> dantasantoniopedro@gmail.com
                 </p>
               </div>{" "}
               This is my online Curriculum Vitae! Here, I'll try to give you an
@@ -204,7 +204,7 @@ export function InfoComponent() {
                 </p>
                 <p className="idented-paragraph">
                   {" "}
-                  <FaMailBulk className="icon-text" /> pedro.dantascv@gmail.com
+                  <FaMailBulk className="icon-text" /> dantasantoniopedro@gmail.com
                 </p>
               </div>{" "}
               Este é o meu Curriculum Vitae online! Aqui vou tentar dar algum
