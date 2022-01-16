@@ -1,7 +1,7 @@
 // Dependencies
 import React, { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 // Styling
 import "./Footer.css";
@@ -17,8 +17,8 @@ export function Footer() {
           <a href="https://github.com/antoniopedrodantas">
             <FaGithub size={20} className="footer-icon" />
           </a>
-          <a href="https://www.instagram.com/pedrodantaspedro/">
-            <FaInstagram size={20} className="footer-icon" />
+          <a href="https://www.linkedin.com/in/antoniopedrodantas/">
+            <FaLinkedin size={20} className="footer-icon" />
           </a>
         </div>
       </div>
@@ -30,8 +30,8 @@ export function Footer() {
           <a href="https://github.com/antoniopedrodantas">
             <FaGithub size={20} className="footer-icon" />
           </a>
-          <a href="https://www.instagram.com/pedrodantaspedro/">
-            <FaInstagram size={20} className="footer-icon" />
+          <a href="https://www.linkedin.com/in/antoniopedrodantas/">
+            <FaLinkedin size={20} className="footer-icon" />
           </a>
         </div>
       </div>

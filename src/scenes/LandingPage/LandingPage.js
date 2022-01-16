@@ -20,7 +20,7 @@ import Formation from "../../components/Formation/Formation";
 import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Skills from "../../components/Skills/Skills";
 
-import Experience from "../Experience/Experience";
+import Experience from "../../components/Experience/Experience";
 
 import Music from "../../components/Music/Music";
 import OtherInterests from "../../components/OtherInterests/OtherInterests";
