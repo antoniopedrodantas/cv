@@ -21,6 +21,36 @@ export function Projects() {
     <>
       <div className="project-wrapper">
         <div className="img-wrapper">
+          <div className="img-wrapper-spotify"></div>
+        </div>
+        <div className="info-wrapper">
+          <a
+            className="project-title"
+            href="https://github.com/antoniopedrodantas/spotify-recommender-system"
+          >
+            <h3 className="project-title"> Spotify Recommender System</h3>
+          </a>
+          <br></br>
+          <p>
+            <mark>Spotify Recommender System</mark> was the final project for my
+            master's dissertation. It consists in a platform that uses{" "}
+            <mark>Inverse Reinforcement Learning</mark> to analyse and infer
+            user preferences on a streaming platform, in this case,{" "}
+            <mark>Spotify</mark>. It later recommends new content to users
+            according to their musical taste. It holds a client-side in charge
+            of communicating with the Spotify's API using <mark>React</mark> and
+            a sever-side application built on <mark>Python</mark> that treats
+            the acquired information.
+          </p>
+          <br></br>
+          <div className="content-right">
+            <SiReact size={30} className="icon-projects" />
+            <SiPython size={30} className="icon-projects" />
+          </div>
+        </div>
+      </div>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
           <div className="img-wrapper-musician-buddy"></div>
         </div>
         <div className="info-wrapper">
@@ -212,6 +242,36 @@ export function Projects() {
     <>
       <div className="project-wrapper">
         <div className="img-wrapper">
+          <div className="img-wrapper-spotify"></div>
+        </div>
+        <div className="info-wrapper">
+          <a
+            className="project-title"
+            href="https://github.com/antoniopedrodantas/spotify-recommender-system"
+          >
+            <h3 className="project-title"> Spotify Recommender System</h3>
+          </a>
+          <br></br>
+          <p>
+            <mark>Spotify Recommender System</mark> foi o projeto final da minha
+            dissertação de mestrado. Consiste numa plataforma que usa{" "}
+            <mark>Inverse Reinforcement Learning</mark> para analisar e inferir
+            as preferências dos utilizadores numa plataforma de streaming, neste
+            caso, no <mark>Spotify</mark>. Mais tarde recomenda novo conteúdo
+            aos utilizadores tendo por base os seus gostos musicais. Contém um
+            client-side encarregue de comunicar com a API do Spotify usando 
+            <mark> React</mark> e uma aplicação sever-side construída em{" "}
+            <mark>Python</mark> que trata a informação adquirida.
+          </p>
+          <br></br>
+          <div className="content-right">
+            <SiReact size={30} className="icon-projects" />
+            <SiPython size={30} className="icon-projects" />
+          </div>
+        </div>
+      </div>
+      <div className="project-wrapper">
+        <div className="img-wrapper">
           <div className="img-wrapper-musician-buddy"></div>
         </div>
         <div className="info-wrapper">
@@ -227,8 +287,8 @@ export function Projects() {
             ideia para isto surgiu quando eu não conseguia encontrar uma maneira
             de contar em quais BPMs estava ao tocar num certo tempo. Aí,
             apercebi-me que poderia fazer esses cálculos com matemática e a
-            ajuda de programação. Eu decidi desenvolver uma aplicação web,
-            já que é mais fácil de ter acesso e ter uma melhor experiência de
+            ajuda de programação. Eu decidi desenvolver uma aplicação web, já
+            que é mais fácil de ter acesso e ter uma melhor experiência de
             UX/UI. O projeto está sempre a evoluir e agora tem também a
             possibilidade de tocar uma nota para que o utilizador possa afinar
             os seus instrumentos. Foi desenvolvido usando a biblioteca{" "}
