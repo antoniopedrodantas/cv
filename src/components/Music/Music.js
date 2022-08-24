@@ -30,15 +30,32 @@ export function Music() {
             and in <mark>Spain</mark>.
           </p>
           <p>
-            Music production has also captured my interest in the last few
-            years. Recording with Jepards made me very curious about{" "}
-            <mark>sound engineering</mark> and I have been trying to learn it on
-            my own. I assembled a little bedroom studio in which I have been
-            recording some DIY style instrumentals. I can now produce somewhat
-            decently, understand how sound recording and acoustic treatment work
-            and get along with pretty much any{" "}
-            <mark>Digital Audio Workstation</mark>.
+            I've also founded a record label with two friends called{" "}
+            <mark>2ª Habitação</mark>. It is still in its early stages but in
+            the future we plan on dealing with both collective and individual
+            projects from each one of us. For now we do a little music
+            production and some <mark>DJ sets</mark> in our home town.
           </p>
+        </div>
+        <div className="music-content">
+          <div className="2habitacao">
+            <img
+              className="habitacao-poster"
+              src="https://i.imgur.com/pOz1M9m.jpeg"
+              alt="dj set poster from 2 habitacao"
+            ></img>
+          </div>
+          <div className="jepards">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/00P5I2b_L3U"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </>
@@ -64,15 +81,32 @@ export function Music() {
             <mark>Portugal</mark> como em <mark>Espanha</mark>.
           </p>
           <p>
-            Produção musical também tem capturado o meu interesse nos últimos
-            anos. Gravar com os Jepards pôs-me bastante curioso na área de{" "}
-            <mark>engenharia de som</mark> e tenho tentado aprender alguns
-            conceitos. Montei um pequeno estúdio no meu quarto no qual tenho
-            gravado alguns instrumentais ao estilo DIY. Agora, consigo produzir
-            até decentemente, percebo como a gravação de som e tratamento
-            acústico funcionam e desenrasco-me com praticamente qualquer{" "}
-            <mark>Digital Audio Workstation</mark>.
+            Também fundei uma editora discográfica com dois amigos chamada{" "}
+            <mark>2ª Habitação</mark>. Ainda se encontra numa fase inicial mas
+            no futuro planeamos lidar com tanto projetos coletivos como
+            individuais de cada um de nós. Para já, fazemos um pouco de produção
+            musical e alguns <mark>DJ sets</mark> na nossa terra natal.
           </p>
+        </div>
+        <div className="music-content">
+          <div className="2habitacao">
+            <img
+              className="habitacao-poster"
+              src="https://i.imgur.com/pOz1M9m.jpeg"
+              alt="dj set poster from 2 habitacao"
+            ></img>
+          </div>
+          <div className="jepards">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/00P5I2b_L3U"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
       <br></br>

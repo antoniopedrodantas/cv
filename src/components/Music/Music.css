@@ -4,7 +4,11 @@
   height: 100px;
   border-radius: 4px;
   border: solid 4px;
-  border-image-source: linear-gradient(30deg, var(--color-gradient) 15%, var(--color-one) 100%);
+  border-image-source: linear-gradient(
+    30deg,
+    var(--color-gradient) 15%,
+    var(--color-one) 100%
+  );
 }
 
 .my-music-radio {
@@ -44,5 +48,27 @@
     height: 250px;
     border-radius: 4px;
     border: solid 4px var(--color-one);
+  }
+
+  .music-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .habitacao-poster {
+    margin: 1rem;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jepards {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
